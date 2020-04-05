@@ -1,4 +1,5 @@
 import twint
+import json
 import pandas as pd
 
 
@@ -11,46 +12,28 @@ def get_list_of_usernames_from_dataframe(df):
     else:
         return []
 
-def get_bio_for_each_user_from_list(users):
-    list_of_filtered_vets = list()
-    c = twint.Config()
-    for user in users:
-        print("Going for user ", user)
-        c.Username = user
-        c.Hide_output = True
-        c.Store_object = True
-        twint.run.Lookup(c)
-        user = twint.output.users_list[0]
-        bio = user.bio
-        if user.tweets > 50 and 'veteran' in bio.lower() or 'army' in bio.lower():
-            filtered_veteran = dict()
-            filtered_veteran['username'] = user
-            filtered_veteran['bio'] = bio.lower()
-            filtered_veteran['name'] = name.lower()
-            list_of_filtered_vets.append(filtered_veteran)
-        
-    df = pd.DataFrame(list_of_filtered_vets)
-    df.to_excel("step_2.xlsx")
-    print("Fin.")
+def get_filtered_soldiers():
+    eligible_vets = list()
+    with open('user_info.json') as json_file:
+        data = json.load(json_file)
+        for vet in data:
+            bio = vet['bio'].lower()
+            tweets = vet['tweets']
+            join_year = int(vet['join_date'].split(' ')[-1])
+            if ('army' in bio or 'veteran' in bio or 'soldier' in bio or 'military' in bio) and ('organization' not in bio and 'group' not in bio) and tweets > 100 and join_year < 2016:
+                eligible_vets.append(vet)
 
-def test_usr(name='sumitmukhija'):
-    c = twint.Config()
-    c.Username = name
-    c.Hide_output = True
-    c.Store_object = True
-    twint.run.Lookup(c)
-    user = twint.output.users_list[0]
-    print(dir(user))
-    print(user.tweets)
+        with open('data/filtered_vets.json', 'w') as output:
+            json.dump(eligible_vets, output)
+            print("filtered_vets.json created")
+
 
 
 if __name__ == "__main__":
-    users = get_list_of_usernames_from_dataframe(get_dataframe())
-    if len(users) > 0:
-        get_bio_for_each_user_from_list(users)
-
-    
-
+    get_filtered_soldiers()
+    # users = get_list_of_usernames_from_dataframe(get_dataframe())
+    # if len(users) > 0:
+    #     get_bio_for_each_user_from_list(users)
 
 
 
