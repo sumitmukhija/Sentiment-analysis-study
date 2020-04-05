@@ -1,7 +1,7 @@
 import twint
 import json
 import pandas as pd
-
+import csv
 
 def get_dataframe(file_name='iava.csv'):
     return pd.read_csv(file_name)
@@ -25,7 +25,15 @@ def get_filtered_soldiers():
 
         with open('data/filtered_vets.json', 'w') as output:
             json.dump(eligible_vets, output)
-            print("filtered_vets.json created")
+            print("filtered_vets.json created. Contains all information. Use to verify. Don't use as input")
+
+        with open('data/filtered_vets_username.csv', 'wb') as csv:
+            csv.write('username'.encode())
+            csv.write("\n".encode())
+            for vet in eligible_vets:
+                csv.write(vet['username'].encode())
+                csv.write("\n".encode())
+            print("filtered_vets_username.csv created. Contains username. Use as input")
 
 
 
