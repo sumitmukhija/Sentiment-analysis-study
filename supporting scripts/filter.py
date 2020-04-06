@@ -20,8 +20,9 @@ def get_filtered_soldiers():
             bio = vet['bio'].lower()
             tweets = vet['tweets']
             join_year = int(vet['join_date'].split(' ')[-1])
-            if ('army' in bio or 'veteran' in bio or 'soldier' in bio or 'military' in bio) and ('organization' not in bio and 'group' not in bio) and tweets > 100 and join_year < 2016:
+            if ('army' in bio or 'veteran' in bio or 'soldier' in bio or 'military' in bio) and ('organization' not in bio and 'group' not in bio) and tweets > 50 and join_year < 2019:
                 eligible_vets.append(vet)
+        print(len(eligible_vets))
 
         with open('data/filtered_vets.json', 'w') as output:
             json.dump(eligible_vets, output)
