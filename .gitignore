@@ -1,0 +1,8 @@
+# OS files
+.DS_Store
+
+# editors
+.vscode
+
+# notebook temps
+.ipynb_checkpoints/
