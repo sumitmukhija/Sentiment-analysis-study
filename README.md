@@ -51,3 +51,7 @@ Once the Big 5 is out, the Dark Triad personalities can be infered with mappings
 ## Discussion
 
 ## About
+
+The paper should follow the instructions provided here (approved by professor):
+
+https://sites.google.com/view/iwcs2019/instructions-for-authors
