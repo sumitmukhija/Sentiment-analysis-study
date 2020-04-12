@@ -1,5 +1,9 @@
+#!/bin/sh
+
 LOGFILE=username-to-tweets.log
-exec < data/filtered_vets_username.csv || exit 1
+
+exec <data/filtered_vets_username.csv || exit 1
+
 # read header
 while IFS='\n' read name; do
     a="twint -o data/soldiers/$name.csv --csv -u $name"
