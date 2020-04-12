@@ -37,7 +37,7 @@ About how to calculate and illustrate the numbers.
 
 See the chapter `Co-Authors, References and Reported Experiments` in [Linguistic_Traces_of_a_Scientific_Fraud-_The Case_of_Diederik_Stapel](./references/Linguistic_Traces_of_a_Scientific_Fraud-_The%20Case_of_Diederik_Stapel.pdf)
 
-### The Big Five & Dark Triad Personalities
+### ~~The Big Five & Dark Triad Personalities~~
 
 See [Cyberbullying_detection_on_twitter_using_Big_Five_and_Dark_Triad_features](./references/Cyberbullying_detection_on_twitter_using_Big_Five_and_Dark_Triad_features.pdf)
 
@@ -48,6 +48,10 @@ Or we can find other approach using lexicons availble on the internet.
 
 There is relationships given in the paper.
 Once the Big 5 is out, the Dark Triad personalities can be infered with mappings given in the paper.
+
+### NRC Word-Emotion Association Lexicon (EmoLex)
+
+check this: https://github.com/dropofwill/py-lex
 
 ## Visualization
 
