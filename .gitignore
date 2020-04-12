@@ -6,3 +6,8 @@
 
 # notebook temps
 .ipynb_checkpoints/
+
+supporting_scripts/.vscode
+supporting_scripts/data/soldiers/combined_soldiers.csv
+supporting_scripts/data/civilians/combined_civilians.csv
+supporting_scripts/venv/
