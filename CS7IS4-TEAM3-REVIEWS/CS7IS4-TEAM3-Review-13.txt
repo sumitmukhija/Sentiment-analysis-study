@@ -1,0 +1,171 @@
+0)  Indicate the title and authorship of the article reviewed.
+
+Title: Sentiment Analysis of Soldiers’ Tweets - Comparison with
+civilians
+Authorship: Sumit Mukhija, Rachit Rastogi, Chao Chen, Chen Wang, Chetan Prasad
+
+1)  Is the title succinct and apt with respect to the essay content?
+
+Rating: 5
+
+Comments: Yes, the title is brief and clearly gives the gist of what the content of the essay is. It is aligned with and adequately describes the purpose of the essay which is to do a comparative study of sentiment analysis of tweets posted by Soldiers and Civilians.  
+
+
+2)  Does the abstract accurately and concisely set the context for the
+  work and indicate the main hypotheses?
+
+Rating: 4
+
+Comments: The abstract identifies the main motivation behind the paper which is the concern of soldiers' mental health. It gives an almost transparent view on the process of extracting the type of data, however it fails to mention the tool used to compare the data achieved via analysing the tweets posted by civilians and soldiers. It also misses out on what purpose these results would serve. Other than that, the abstract is crisp and catches the attention of the author to further read on. 
+
+3)  Are the keywords appropriate?
+
+Rating: 1
+
+Comments: There is no list of keywords provided. 
+
+
+4)  Does the essay present clearly the research topic and the research
+    questions to be pursued within the essay research?
+
+Rating: 3
+
+Comments: The research topic is presented clearly in the essay. Starting from the title itself, the essay is mostly in line with the aim of the research. However, it lacks a proper groundwork that the entire research is based on and a path through which the research flows. The research questions aren't clearly set. Apart from having the clarity of the main motivation of the paper which is to detect and compare sentiments of soldiers, it is difficult to understand the underlying inquiries and particularities that this particular research aims to achieve and solve. 
+
+5)  Does the research review synthesize a background literature within
+    a conceptual framework that the authors propose and defend, making
+    clear how the research questions pursued are left open by prior
+    literature?
+
+Rating: 3
+
+Comments: The literature review walks through appropriate previous work which has been carried out in the same domain as the essay. It, however, lacks a proper deep dive into the questions which could not be solved in the previous works. The structure also seems to be a little inconsistent as the flow gets disrupted in between and it gets a tad bit difficult to track if the review is talking about the current essay implementation or previous research topics. A little more research could have been carried out in the available datasets. The "Sentiment Analysis on Social Media" section, on the other hand, explores a substantial amount of approaches that researchers have adopted in the past to analyse emotions by extracting data from social media. 
+
+6)  Does the research question seek to relate properties of texts
+    falling within categories presented as relevant to separate
+    categories argued within the draft as dependent?
+
+Rating: 3
+
+Comments: The research questions are not clearly mentioned but it can be gathered from the paper that the research question is basically to realize if war has an effect on soldiers' mental health. The variables that can be assembled from the text properties do justify the dependent categories mentioned within the draft (i.e. if the analysis of tweets will justify the hypothesis of war having an impact on the soldiers' mental health), but then again, it is a difficult task to indetify the variables correctly without a proper set of questions defined.
+
+7)  Does the methods section indicate clearly what corpora will be
+    required and what sources will be adopted for the separate
+    categories in support of answering the research questions?
+
+Rating: 3
+
+Comments: The experiment setup defines the dataset collection and the reason for it being chosen. It gives a vivid walk-through of the preprocessing of the data, however, since there are no clear set of research questions defined, it gets difficult to correlate the sources adopted with the undefined particularities of the research. 
+
+8)  Does the description of research methods indicate how the
+    corpus will be processed in order to assess it according to
+    the categorization scheme proposed within the essay?
+
+Rating: 5
+
+Comments: Yes, the research methods are appropriately aligned with the categorization scheme proposed within the essay.
+
+9)  Does the description of research methods indicate how the relevant
+    quantities and qualities will be measured and assessed,
+    stipulating what would count as a confirmation of the authors'
+    hypotheses and what would count as falsification of the authors'
+    hypotheses?
+
+Rating: 3
+
+Comments: The research methods adopted give quite a detailed encounter of the processing of data and how the methods can be used to pursue the analysis of the hypothesis of the paper. The paper gives reasoning as to why twitter data has been used, it being a social platform widely used by civilians as well as service-men. The hypothesis would be proved true if the sentiment analysis of the tweets of veterans differ considerably from those of the civilians. However, there's no scenario mentioned when the hypothesis would be proved wrong.  
+
+10) Are the research methods appropriate to the question studied?
+
+Rating: 3
+
+Comments: Gathering that the hypothesis of the research paper paves the way for the the main research question, the research methods adopted seem to be appropriate. Although the methodology is confined to only preprocessing till now, it seems justifiable to the question. A draft of the intented list of research question sets would have offered more clarity.
+
+
+11) Does the underlying research result in the assembly of a data set
+    that will be useful to the wider research community?
+
+Rating: 3
+
+Comments: The underlying research result will indeed by helpful in contributing further to research. But social media is not always the genuine platform. People tend to not be themselves most of the times while posting updates and the extent of its significance when analyzing a real life issue of mental health is debatable. However, this research has ample of opportunities to create an extensive dataset, which could prove beneficial to the wider research community. 
+
+
+12) Are results clearly provided?
+
+Rating: 2
+
+Comments: It is mentioned that the comparative study comes up with a result which displays whether the veterans were targeted to depression and suicidal, however, there is no display of the results yet on the paper. The process is described but the results achieved from it is missing.
+
+
+13) Does the discussion of results provide a clear interpretation,
+    with reference to the research questions posed?
+
+Rating: 1
+
+Comments: The paper lacks both clearly defined research questions and results. Even if we assume the hypothesis to be the main research question of the paper, the results derived from the processing and analysing of data are not properly documented. 
+
+14) Do the conclusions emphasize how the interpreted results
+    contribute to the literature?
+
+Rating: 1
+
+Comments: No conclusion is given in the paper with respect to the current findings. 
+
+15) Are tables and figures clearly annotated and captioned?
+
+Rating: 5
+
+Comments: Yes, the tables and figures are correctly annotated and aptly captioned.
+
+16) Does the essay present comprehensive bibliographic details for
+    works cited?
+
+Rating: 5
+
+Comments: The essay is cited properly.
+
+17) Is the essay well written in a scholarly mode of presentation?
+
+Rating: 4
+
+Comments: There are a few sentence miscontructions which made it a little difficult to understand what the section wants to convey. Otherwise, the presentation of the essay has a good flow. 
+
+
+18) Does the description of individual contributions suggest an
+    equitable division of labour?
+
+Rating: 5
+
+Comments: Yes, the division of labour seems to be equal and proper.
+
+
+19) Does the description of individual contributions provide
+    sufficiently rich description of the individual contributions in
+    a manner that allows an independent reader to assess who
+    contributed what and in a fashion that justifies any percentage
+    estimates of work?
+ 
+Rating: 4
+
+Comments: Providing a little more detailed contribution would have given more clarity, like who worked with which part of data extraction from Twitter. But overall, there is a clear distribution of work which gives a fair estimation of individual work.
+
+20) What qualities of this paper would you argue that your own
+    group should try to emulate?
+
+Rating: 5
+
+Comments: Data process and analyze is very precisely described and the flow chart makes it very easy to comprehend. 
+
+
+21) What qualities of this paper would you argue that your own
+    group should try to avoid?
+
+Rating: 5
+
+Comments: Not having a set of proper research questions.
+
+22) Is this work a good candidate for a "best paper" prize?
+
+Rating: 4
+
+Comments: It could have been, had the results been clearly discussed and there was a clear identification of which research question the paper tries to analyze and answer. However, the final essay has the potential to be one of the best papers. 

@@ -1,0 +1,173 @@
+For each question where a scale is used, the intended scale is from 1
+to 5, where 5 is the score for the best possible contribution and 1 is
+the score for work that is at the opposite end of the spectrum.  For
+each category of rating, justify your rating and provide feedback on
+how the work could be improved.
+
+
+0)  Indicate the title and authorship of the article reviewed.
+Title: Sentiment Analysis of Soldiers’ Tweets - Comparison with civilians (TBC)
+Authors: Sumit Mukhija, Rachit Rastogi,Chao Chen, Chen Wang, Chetan Prasad
+
+1)  Is the title succinct and apt with respect to the essay content?
+
+Rating: 4
+
+Comments: Yes, the title is apt with the content of the essay but the overall out of the text property achieved is not clearly mentioned.
+
+
+2)  Does the abstract accurately and concisely set the context for the
+  work and indicate the main hypotheses?
+
+Rating: 4
+
+Comments: Abstract does explain about the background and gives an idea of the essay but misses to mention about the main hypotheses.
+
+3)  Are the keywords appropriate?
+
+Rating: 0
+
+Comments: No keywords are mentioned.
+
+
+4)  Does the essay present clearly the research topic and the research
+    questions to be pursued within the essay research?
+
+Rating: 3
+
+Comments: Yes, but the introduction and abstract misses the hypotheses or research question relative to the out of the text properties to be pursued in the essay. 
+
+5)  Does the research review synthesize a background literature within
+    a conceptual framework that the authors propose and defend, making
+    clear how the research questions pursued are left open by prior
+    literature?
+
+Rating: 4
+
+Comments: The essay covers the literature review about the techniques that are being used and the targetted subjects. This group has used an alternative spect of the targetted subjects to be studied in this essay.  
+
+6)  Does the research question seek to relate properties of texts
+    falling within categories presented as relevant to separate
+    categories argued within the draft as dependent?
+
+Rating: 3.5
+
+Comments: The properties of the text used in this essay are relatable but described very less in detail. 
+
+7)  Does the methods section indicate clearly what corpora will be
+    required and what sources will be adopted for the separate
+    categories in support of answering the research questions?
+
+Rating: 3
+
+Comments: Data source is clearly mentioned but the authors do not mention the exact process on libraries or technologies used for feature extraction in detail.
+
+8)  Does the description of research methods indicate how the
+    corpus will be processed in order to assess it according to
+    the categorization scheme proposed within the essay?
+
+Rating: 4
+
+Comments: The essay describes this part but very short descritpion is provided.
+
+9)  Does the description of research methods indicate how the relevant
+    quantities and qualities will be measured and assessed,
+    stipulating what would count as a confirmation of the authors'
+    hypotheses and what would count as falsification of the authors'
+    hypotheses?
+
+Rating: 3
+
+Comments: Hypotheses or research question is not clearly mention in the essay. Only the aim of the study is roughly defined. Results are yet to be described.
+
+10) Are the research methods appropriate to the question studied?
+
+Rating: 3
+
+Comments: The methods are relevant but as research question or hypotheses is itself not defined, cannot comment on this part.
+
+
+11) Does the underlying research result in the assembly of a data set
+    that will be useful to the wider research community?
+
+Rating: 4
+
+Comments: Yes it can be useful for the future research in different disciplines but future work should have been defined.
+
+12) Are results clearly provided?
+
+Rating: 1 
+
+Comments: No results provided. 
+
+
+13) Does the discussion of results provide a clear interpretation,
+    with reference to the research questions posed?
+
+Rating: 1
+
+Comments: No results provided. 
+
+14) Do the conclusions emphasize how the interpreted results
+    contribute to the literature?
+
+Rating: 1 
+
+Comments: No conclusion available.
+
+15) Are tables and figures clearly annotated and captioned?
+
+Rating: 4
+
+Comments: Figure is captioned. Tables are not present.
+
+16) Does the essay present comprehensive bibliographic details for
+    works cited?
+
+Rating: 4
+
+Comments: Yes they have used Harvard format and it looks appropriate. 
+
+17) Is the essay well written in a scholarly mode of presentation?
+
+Rating: 3
+
+Comments: It is well organized but keywords,results,detailed methodology and introduction/abstract(to include the hypotheses and its background) are missing. 
+
+18) Does the description of individual contributions suggest an
+    equitable division of labour?
+
+Rating: 5
+
+Comments: Yes, the individual contributions show that there ha been equal participation of all individuals and equal distribution of labour in the project.
+
+
+19) Does the description of individual contributions provide
+    sufficiently rich description of the individual contributions in
+    a manner that allows an independent reader to assess who
+    contributed what and in a fashion that justifies any percentage
+    estimates of work?
+
+Rating: 4
+
+Comments: Individual contributions are well described to asses who contributed what and is justifiable to equal distribution of percentage of labour distributed among all the participants of the group. However there is some duplication of work.
+
+20) What qualities of this paper would you argue that your own
+    group should try to emulate?
+
+Rating: 3
+
+Comments: Process flow diagram is well implemented in the essay. I would like our group to do that.
+
+21) What qualities of this paper would you argue that your own
+    group should try to avoid?
+
+Rating: 3
+
+Comments: Introduction/abstract missing the hypotheses, methodology missing the detailing of the method used and exact sequence of steps to be followed in the methodology part. Rest of the results and conclusion are under progress as seen from the incomplete parts.
+
+22) Is this work a good candidate for a "best paper" prize?
+
+Rating: 3
+
+Comments: I am afraid no, this paper has a lot to improve interms of abstract, keywords, introduction , methodology ,etc.

@@ -1,0 +1,249 @@
+Please complete one copy of this form for each paper that you are
+given to review.
+
+Authors will not know through this process who reviewed any
+submission; it is recommended that this remain anonymous.
+
+Each review form should be returned as a plain text file with the file
+name:
+CS7IS4-TEAMn-Review-StudentNumber-SURNAME.txt
+where n in "TEAMn" is replaced by the cardinal number corresponding
+to that of the group who submitted the article to review, and where
+StudentNumber and SURNAME are that of the reviewer.
+
+These should be aggregated into a zip file and uploaded via Blackboard,
+adhering to the naming conventions described below for the individual
+files.  The zip file should be named using the convention:
+CS7IS4-REVIEWS-STUDENTNUMBER-STUDENTSURNAME-STUDENTFIRSTNAME-x-y-z-w.zip
+where x, y, z and w are the integer numbers corresponding to the group
+names of the papers reviewed, in order of increasing integer value.
+
+The student number and surname will be removed from the files that
+are returned to authors.
+
+For each question where a scale is used, the intended scale is from 1
+to 5, where 5 is the score for the best possible contribution and 1 is
+the score for work that is at the opposite end of the spectrum.  For
+each category of rating, justify your rating and provide feedback on
+how the work could be improved.
+
+
+0)  Indicate the title and authorship of the article reviewed.
+Title: Sentiment Analysis of Soldiers’ Tweets - Comparison with civilians (TBC)
+Authors[0]: Sumit Mukhija
+Authors[1]: Rachit Rastogi
+Authors[2]: Chao Chen
+Authors[3]: Chen Wang
+Authors[4]: Chetan Prasad
+
+
+1)  Is the title succinct and apt with respect to the essay content?
+
+Rating: 5
+
+Comments:
+The title succintly describes, and is an accurate reflection of, the essay contents.
+
+
+2)  Does the abstract accurately and concisely set the context for the
+  work and indicate the main hypotheses?
+
+Rating: 5
+
+Comments:
+The abstract clearly sets the context for the work, and indicates the main hypothesis, as well as the methodology used.
+
+
+3)  Are the keywords appropriate?
+
+Rating: 1
+
+Comments:
+No keywords are supplied (MIN_SCORE).
+
+
+4)  Does the essay present clearly the research topic and the research
+    questions to be pursued within the essay research?
+
+Rating: 5
+
+Comments:
+Section 1 clearly indicates the research topic and hypothesis, and how the authors intend to prove/disprove it.
+
+
+5)  Does the research review synthesize a background literature within
+    a conceptual framework that the authors propose and defend, making
+    clear how the research questions pursued are left open by prior
+    literature?
+
+Rating: 5
+
+Comments:
+Section 2 presents a good selection of background literature, categorised into multiple related areas (veteran mental health, sentiment analysis in general, and sentiment analysis of social media). Particular reference is also made to the SemEval workshop, which is useful as context. 
+
+
+6)  Does the research question seek to relate properties of texts
+    falling within categories presented as relevant to separate
+    categories argued within the draft as dependent?
+
+Rating: 5
+
+Comments: 
+The research question attempts to relate the overall sentiment of a text (positive or negative, property inside text) to the veteran status of the author (veteran or civilian, property outside text). It is clearly argued in the draft that these features are dependent.
+
+
+7)  Does the methods section indicate clearly what corpora will be
+    required and what sources will be adopted for the separate
+    categories in support of answering the research questions?
+
+Rating: 2
+
+Comments:
+Section 3.1.1 indicates clearly the source of the textual data in question (Twitter) as well as the particular selection criteria (Twitter users who are also veterans) the authors propose to use given their particular research question. 
+However, reference is also made to particular positive and negative adjectives to be used as signifiers for overall positive and negative sentiment. The source of these adjectives, as well as whatever sentiment polarities or intensities they may encompass, is not well defined (-1). Do the authors make use of a pre-existing sentiment database, and, if so, which one? 
+Additionally, a data set for the control group ("commoners") is also mentioned, but the selection criteria for this control group are not clearly stated (-1). Are these control users selected completely at random from all Twitter users around the world? If not, what are the other selection criteria?
+Finally, it is not clearly specified what timeframe the corpus of data encompasses, whether these timeframes intersect, and exactly how these data are fetched from Twitter's API (-1). More detail in this area would be useful in order for subsequent researchers to be able to reproduce findings.
+
+
+8)  Does the description of research methods indicate how the
+    corpus will be processed in order to assess it according to
+    the categorization scheme proposed within the essay?
+
+Rating: 3
+
+Comments:
+Section 3.1.2 details the data analysis steps to be undertaken, including the text analysis model to be used (bag-of-words), and provides a flowchart-diagram of the analysis steps to be undertaken. 
+Detail is not provided exactly on what tokenization algorithm is used, and what particular parameters, if any, are to be supplied to the given algorithm (-1). This will be important for future reproducability of findings.
+Additionally, the "positive and negative words" used as sentiment signifiers are not clearly defined, again making it difficult for subsequent reproduction of findings (-1).
+
+
+9)  Does the description of research methods indicate how the relevant
+    quantities and qualities will be measured and assessed,
+    stipulating what would count as a confirmation of the authors'
+    hypotheses and what would count as falsification of the authors'
+    hypotheses?
+
+Rating: 3
+
+Comments:
+Section 3.1.2 details how the sentiment of a given Tweet will be measured, what categories into which they will be classified, and the classifications that will be made as a result of the overall sentiment on the author (depression / no depression). 
+It is not specified how the veterans' dataset will be compared to that of the control group (-1). What sort of comparison will be made, specifically, and what exact measures will be compared?
+It is not also clearly specified what would count as a confirmation or refutation of the authors' hypothesis, just that a comparison will be made (-1). 
+
+
+10) Are the research methods appropriate to the question studied?
+
+Rating: 4
+
+Comments:
+Section 3.1.1 states that Twitter profiles of US Army Veterans were manually analyzed. It is clearly specified how the initial 6 profiles were chosen and how it was ensured that these profiles were, in fact, US Army Veterans (Twitter allows users to "Verify" their account, which manifests as a blue checkmark on their profile, and entails a manual curation process from Twitter staff). However, it is not clear if this selection process extends to the "succeeding veterans", and whether any steps are taken to ensure that these accounts are also verifiably veterans of the US armed forces (-1). 
+
+
+11) Does the underlying research result in the assembly of a data set
+    that will be useful to the wider research community?
+
+Rating: 5
+
+Comments:
+The results of this underlying research would entail a dataset of terms that, when seen in a text, could imply that the author of said text is at risk of mental health issues. As early detection of this is vital for successful treatment and to minimise harm, such data could be extremely valuable to the wider research community.
+
+
+12) Are results clearly provided?
+
+Rating: 1
+
+Comments:
+No results are provided yet (MIN_SCORE). 
+
+
+13) Does the discussion of results provide a clear interpretation,
+    with reference to the research questions posed?
+
+Rating: 1
+
+Comments:
+No results are provided yet (MIN_SCORE).
+
+
+14) Do the conclusions emphasize how the interpreted results
+    contribute to the literature?
+
+Rating: 1
+
+Comments:
+No conclusions are provided yet (MIN_SCORE).
+
+
+15) Are tables and figures clearly annotated and captioned?
+
+Rating: 5
+
+Comments:
+All the tables and figures used are clearly annotated and captioned, and appear in a suitable location.
+
+
+16) Does the essay present comprehensive bibliographic details for
+    works cited?
+
+Rating: 5
+
+Comments:
+The essay's bibliography is comprehensive.
+
+
+17) Is the essay well written in a scholarly mode of presentation?
+
+Rating: 3
+
+Comments:
+The paper is well-written and well-presented overall; the inclusion of hyperlinks to citations is welcome. However, including bibliographic information in footnotes would aid smoother reading (-1).
+Some terminology used sounds somewhat problematic; non-veteran users are referred to, variously, as "normal users", "ordinary people", or "commoners". I would recommend sticking to either the terms "non-veterans" or "civilians" (-1) and avoid attempting to find synonyms. Repeated key terms can be useful if one is attempting to quickly find information in an article.
+
+
+18) Does the description of individual contributions suggest an
+    equitable division of labour?
+
+Rating: 5
+
+Comments:
+The description of individual contributions suggests equitable division of labour; the distribution of some larger tasks ("data extraction from Twitter") especially much so.
+
+
+19) Does the description of individual contributions provide
+    sufficiently rich description of the individual contributions in
+    a manner that allows an independent reader to assess who
+    contributed what and in a fashion that justifies any percentage
+    estimates of work?
+
+Rating: 5
+
+Comments:
+The descriptions are concise yet informative, and allow an independent reader to clearly assess the nature and scope of individual contributions.
+
+
+20) What qualities of this paper would you argue that your own
+    group should try to emulate?
+
+Rating: 5
+
+Comments:
+Our own groups' individual contributions were overly verbose. We could have made these descriptions more consise without losing much information.
+I really like the inclusion of hyperlinks within the document and would very much like to emulate this.
+I also prefer the "Primary Author et al. (year)" mode of citation, as it gives more information than simply a bracketed number. 
+
+
+21) What qualities of this paper would you argue that your own
+    group should try to avoid?
+
+Rating: 4
+
+Comments:
+I would argue that one should always be mindful of terminologies being used in a scholarly publication, and attempt to use semantically neutral terms wherever possible. These terms should also be used consistently throughout, rather than attempting to use all possible synonyms for any given term. This is especially important from the perspective of a time-starved researcher attempting to locate keywords in an article. 
+
+
+22) Is this work a good candidate for a "best paper" prize?
+
+Rating: N/A
+
+Comments:
+At this early draft stage, I do not feel it is possible to say whether or not this paper is a good candidate.

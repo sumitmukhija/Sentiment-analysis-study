@@ -1,0 +1,244 @@
+Please complete one copy of this form for each paper that you are
+given to review.
+
+Authors will not know through this process who reviewed any
+submission; it is recommended that this remain anonymous.
+
+Each review form should be returned as a plain text file with the file
+name:
+CS7IS4-TEAMn-Review-StudentNumber-SURNAME.txt
+where n in "TEAMn" is replaced by the cardinal number corresponding
+to that of the group who submitted the article to review, and where
+StudentNumber and SURNAME are that of the reviewer.
+
+These should be aggregated into a zip file and uploaded via Blackboard,
+adhering to the naming conventions described below for the individual
+files.  The zip file should be named using the convention:
+CS7IS4-REVIEWS-STUDENTNUMBER-STUDENTSURNAME-STUDENTFIRSTNAME-x-y-z-w.zip
+where x, y, z and w are the integer numbers corresponding to the group
+names of the papers reviewed, in order of increasing integer value.
+
+The student number and surname will be removed from the files that
+are returned to authors.
+
+For each question where a scale is used, the intended scale is from 1
+to 5, where 5 is the score for the best possible contribution and 1 is
+the score for work that is at the opposite end of the spectrum.  For
+each category of rating, justify your rating and provide feedback on
+how the work could be improved.
+
+
+0)  Indicate the title and authorship of the article reviewed.
+Sentiment Analysis of Soldiers' Tweets - Comparison with Civilians(TBC), by, 
+Sumit Makhija, Rachit Rastogi, Chao Chen, Chen Wang and, Chetan Prasad.
+
+1)  Is the title succinct and apt with respect to the essay content?
+
+Rating: 5
+
+Comments: The title of the study complements the essay in relation to content,
+structure and design. It is an apt reflection of the layout of the work and the 
+initial experimentation.
+
+2)  Does the abstract accurately and concisely set the context for the
+  work and indicate the main hypotheses?
+
+Rating: 5
+
+Comments: The abstract is brief and effectively summarizes the study. Readers of 
+the study should be able to get a clear idea of the hypothesis and how the experiment
+is set up.
+
+3)  Are the keywords appropriate?
+
+Rating: 1
+
+Comments: Keywords are absent.
+
+
+4)  Does the essay present clearly the research topic and the research
+    questions to be pursued within the essay research?
+
+Rating: 4
+
+Comments: The research topic and the methods to be followed within the experiment is 
+to be carried out is clearly stated. However, there is no identifiable research question that
+ascertains the research's applications. Stating the research applications and why  
+relating soldiers' tweets to their emotions would be helpful, might increase the paper's 
+usefulness.
+
+5)  Does the research review synthesize a background literature within
+    a conceptual framework that the authors propose and defend, making
+    clear how the research questions pursued are left open by prior
+    literature?
+
+Rating: 3
+
+Comments: The paper reviews a collection of prior research performed in the same field,
+however, their disadvantages are not mentioned. Extending the disadvantages of the prior 
+researches into this paper and using concepts from them to build an improved model would be 
+better.
+
+
+6)  Does the research question seek to relate properties of texts
+    falling within categories presented as relevant to separate
+    categories argued within the draft as dependent?
+
+Rating: 4
+
+Comments: Correspondences between textual properties and non-textual ones have been
+highlighted, as the hypothesis aims to classify tweets as positive and negative. 
+Although the categories themselves are not mentioned. Broadening on these sub-categories
+could be helpful.
+
+7)  Does the methods section indicate clearly what corpora will be
+    required and what sources will be adopted for the separate
+    categories in support of answering the research questions?
+
+Rating: 5
+
+Comments: Data Collection and corpora creation have been clearly highlighted. Several 
+sources and the disadvantages of each are also mentioned. The broad categories of dataset's (soldiers
+and civilians) that are used to experiment on and their sources have been mentioned appropriately.
+
+8)  Does the description of research methods indicate how the
+    corpus will be processed in order to assess it according to
+    the categorization scheme proposed within the essay?
+
+Rating: 5
+
+Comments: The processing of the data collected have been appropriately mentioned, with distinct
+processing steps and labelled diagrams. Each step and their contents have been 
+accurately represented in relation to the hypothesis.
+
+9)  Does the description of research methods indicate how the relevant
+    quantities and qualities will be measured and assessed,
+    stipulating what would count as a confirmation of the authors'
+    hypotheses and what would count as falsification of the authors'
+    hypotheses?
+
+Rating: 3 
+
+Comments: While there is clear definition of what the non-textual entities will be,
+there is no clear definition of how they will be quantified and compared. A clear description
+of result verification and analysis is required to make the paper more undestandable
+
+10) Are the research methods appropriate to the question studied?
+
+Rating: 3
+
+Comments: The research methods only state how the experimentation will be performed.
+It is necessary to have a preliminary result set description and conclusion to 
+understand the level of deviation from the initial hypothesis.
+
+
+11) Does the underlying research result in the assembly of a data set
+    that will be useful to the wider research community?
+
+Rating: 4
+
+Comments: The data collection section clearly describes the method of data collection. 
+The data set collected on soldiers' tweets and civilians' tweets could be helpful for
+further study. However, the elements or attributes of the corpora collection should be 
+mentioned so that future researchers on the topic could assess its usability as well.
+
+
+12) Are results clearly provided?
+
+Rating:1
+
+Comments: No initial results have been declared.
+
+
+13) Does the discussion of results provide a clear interpretation,
+    with reference to the research questions posed?
+
+Rating: 1
+ 
+Comments:  No initial results have been declared.
+
+14) Do the conclusions emphasize how the interpreted results
+    contribute to the literature?
+
+Rating: 1
+
+Comments: Conclusion and results have not been declared.
+
+15) Are tables and figures clearly annotated and captioned?
+
+Rating: 5
+
+Comments: All figures and tables have been clearly highlighted and labelled in close
+correlation to the text.
+
+16) Does the essay present comprehensive bibliographic details for
+    works cited?
+
+Rating: 5
+
+Comments: All references have been mentioned in the reference section with suitable
+hyperlinks within the text.
+
+17) Is the essay well written in a scholarly mode of presentation?
+
+Rating: 4
+
+Comments: The essay is very well constructed in a fashion to enable research. However,
+certain keywords most pertinent to the study should be consistent throughout the study. 
+For example the use of the phrase 'normal people' should be replaced with 'civilians'
+to elicit a more effective distinction from 'soldiers'. Moreover, 'normal people' is 
+not a phrase that should be included in an paper with an academic setting.
+
+
+18) Does the description of individual contributions suggest an
+    equitable division of labour?
+
+Rating: 5
+
+Comments: Every member has contributed equally to the essay and the research project as
+per the contribtion declaration.
+
+
+19) Does the description of individual contributions provide
+    sufficiently rich description of the individual contributions in
+    a manner that allows an independent reader to assess who
+    contributed what and in a fashion that justifies any percentage
+    estimates of work?
+
+Rating: 3
+
+Comments: Although the contribution percentages are equally distributed, for a neutral 
+reader it will be evident that some members have done more work than others, while some
+members have done the same amount of work. The percentages therefore should have 
+been distributed in a similar fashion.
+
+20) What qualities of this paper would you argue that your own
+    group should try to emulate?
+
+Rating: 5
+
+Comments: Using hyperlinks within the paper to link relevant references is noteworthy. Analyzing the 
+advantages and disadvantages of various data sources is also noteworthy and seems to be fruitful to 
+ascertain which data source would be most helpful for the hypothesis.
+
+
+21) What qualities of this paper would you argue that your own
+    group should try to avoid?
+
+Rating: 4
+
+Comments: First and foremost would be include keywords to give readers a set of identifiable 
+categories this paper could fall into. Additionally, it is important to keep in mind to keep 
+important words most essential to the research consistent throughout the paper. For example,
+in this case 'soldiers' and 'civilians'. Also, mentioning experimentation results 
+for an initial understanding of the validity of the hypothesis is necessary.
+
+22) Is this work a good candidate for a "best paper" prize?
+
+Rating: 3
+
+Comments: The paper has been written by adhering to all the required formatting criterion.
+There are although certain inconsistencies as mentioned above in relating to the two broad categories
+of data sets selected. That is, soldiers and civilians. Initial results and conclusions need to be mentioned
+in order to assess the feasibility of the initial hypothesis. One could consider this paper as a candidate
+for a 'best paper' award, however, they should not be optimistic about the results of the award.

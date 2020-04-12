@@ -1,0 +1,297 @@
+Please complete one copy of this form for each paper that you are
+given to review.
+
+Authors will not know through this process who reviewed any
+submission; it is recommended that this remain anonymous.
+
+Each review form should be returned as a plain text file with the file
+name:
+CS7IS4-TEAMn-Review-StudentNumber-SURNAME.txt
+where n in "TEAMn" is replaced by the cardinal number corresponding
+to that of the group who submitted the article to review, and where
+StudentNumber and SURNAME are that of the reviewer.
+
+These should be aggregated into a zip file and uploaded via Blackboard,
+adhering to the naming conventions described below for the individual
+files.  The zip file should be named using the convention:
+CS7IS4-REVIEWS-STUDENTNUMBER-STUDENTSURNAME-STUDENTFIRSTNAME-x-y-z-w.zip
+where x, y, z and w are the integer numbers corresponding to the group
+names of the papers reviewed, in order of increasing integer value.
+
+The student number and surname will be removed from the files that
+are returned to authors.
+
+For each question where a scale is used, the intended scale is from 1
+to 5, where 5 is the score for the best possible contribution and 1 is
+the score for work that is at the opposite end of the spectrum.  For
+each category of rating, justify your rating and provide feedback on
+how the work could be improved.
+
+
+0)  Indicate the title and authorship of the article reviewed.
+
+Sentiment Analysis of Soldiers’ Tweets - Comparison with
+civilians
+Sumit Mukhija, Rachit Rastogi,
+Chao Chen, Chen Wang, Chetan Prasad
+School of Computer Science and Statistics, Trinity College Dublin
+
+
+1)  Is the title succinct and apt with respect to the essay content?
+
+Rating: 3 
+
+Comments: There are two motives suggested in the paper 1) Analyzing Sentiment of tweets posted by vetrans 
+2) Analyzing mental condition of the war veterans
+However, this is not clearly described that how this both studies will corelate to each other, in other words
+How negative or positive sentiment of tweets relate to mental condition of the users.
+
+
+
+2)  Does the abstract accurately and concisely set the context for the
+  work and indicate the main hypotheses?
+
+Rating: 4
+
+Comments: "Existing works show that mental health
+changes caused by wars can be reflected in linguistic features of the social media texts"
+This line clearly conveys the hypothesis, linguistic features of social media texts can reflect mental health, however
+it is also stated that this hypothesis is already tested in previous works, so it is not clear from the abstract that whether
+the authors are going to test this hypothesis or if they are considering it as proven study.  
+
+3)  Are the keywords appropriate?
+
+Rating: 0
+
+Comments:There are no keywords mentioned.
+
+
+4)  Does the essay present clearly the research topic and the research
+    questions to be pursued within the essay research?
+
+Rating: 4 
+
+Comments: The essay clearly presents that the authors wants to analyze social media texts of veteran soldiers and
+doing that they want to analyze the mental condition of the veterans, however there is no proper correlations mentioned
+that how these two studies will corelate to each other.
+
+5)  Does the research review synthesize a background literature within
+    a conceptual framework that the authors propose and defend, making
+    clear how the research questions pursued are left open by prior
+    literature?
+
+Rating: 3
+
+Comments: Following are the citations from the article
+
+a) "Linguistic contents which users posted on social media have been proved to be
+the basis for evaluating a person’s mental state (Weerasinghe et al. (2019) and Guntuku et al. (2017)).
+However, the majority of research targets are normal people."
+Here the authors clearly describe how they are going to pursue the research given in the citations
+
+b) "Westgate in LeonardWestgate et al. (2015)
+has come up with a method about the evaluation of veterans’ suicide risk. This paper will concentrate
+on analyzing the impact of the war on veterans’ mental state through the Twitters posted by themselves
+before and after the war instead of focusing on the prediction of the suicide risk of veterans"
+Here also the authors mentioned to focus on mental health instead of narrowing down to suicide risk, thus exploring
+new dimension of the research.
+
+c) "Determining not just the sentiment of a text but even the
+topic (Lin and He (2009)) on which it is written on is one of the interesting works in this field. Another
+work makes use of the lexicons in the text and word dictionaries to extract the sentiment behind it (Maas
+et al. (2011)). There is another work that trains a model to learn not just the words but to also capture the
+sentiment behind it (Taboada et al. (2011))."
+Here the authors mention some research done on sentiment analysis, but the authors don't mention the reason to state 
+these researchs or how they are going to better this research or take it into another dimension.
+
+d) section 2.3 - Sentiment Analysis on Social Media
+In this section authors go on to mention some research works without mentioning that how they are going to use or extend
+these researches. This section seemed more like a literature review.
+
+
+6)  Does the research question seek to relate properties of texts
+    falling within categories presented as relevant to separate
+    categories argued within the draft as dependent?
+
+Rating: 5 
+
+Comments: The authors clearly presented the hypothesis, stating that mental health(property outside text) is related
+to linguistic features of social media texts(properties inside text)
+
+7)  Does the methods section indicate clearly what corpora will be
+    required and what sources will be adopted for the separate
+    categories in support of answering the research questions?
+
+Rating: 3
+
+Comments: 
+From Section 3.1.1
+"Several verified Twitter pages linked to the US
+Army were manually analyzed and a few profiles of the veterans were used as an initial set. Fitting
+representation was ensured by selecting 6 veterans belonging to all the genders."
+
+From this text it can be infered that from some twitter pages linked to US Army, 6 profiles of war veterans were
+extracted by manual analysis. However, what was the criteria to calssify an army proffessional as army veteran.
+
+
+From section 2.1
+"This paper will concentrate
+on analyzing the impact of the war on veterans’ mental state through the Twitters posted by themselves
+before and after the war instead of focusing on the prediction of the suicide risk of veterans."
+
+Here the authors say that they are going to compare menta health of war veterans before and after war. However,
+nowhere in the paper they mentioned that how are the going to split the tweets of war veterans into pre war and post 
+war times.
+
+
+8)  Does the description of research methods indicate how the
+    corpus will be processed in order to assess it according to
+    the categorization scheme proposed within the essay?
+
+Rating: 5 
+
+Comments: Section 3.1.2 Data Process and Analysis in the paper clearly describes how the authors are going to process
+and assess their data.
+
+9)  Does the description of research methods indicate how the relevant
+    quantities and qualities will be measured and assessed,
+    stipulating what would count as a confirmation of the authors'
+    hypotheses and what would count as falsification of the authors'
+    hypotheses?
+
+Rating: 3
+
+Comments: 
+From Section 3.1.2
+"Here we take into account the tweets of
+all the selected veterans from our data and then run an analysis to gather information of there sentiments
+breaking them into two parts, that is word count of how much words they have used are under the world
+cloud of being “Happy”, and the same for the one under “Sad”. This identical analysis is then run on
+tweets by ordinary people. Finally, we will categorise these words to check the two sets of results which
+will ultimately help us identify an individual being in the state of depression with respects to the number
+of words count of “positive” and “negative” results."
+Here the authors clearly described the procedure to analyse the sentiment of the tweets. However, it is not clearly
+stated that how labeling tweets as positive or negative can result into concluding mental health of the user.
+
+10) Are the research methods appropriate to the question studied?
+
+Rating: 3
+
+Comments: The methods described in section 3.1.2 mentions largely the techniques to label the tweets as positive or negative,
+and then counting amount of positive and negative words from two categories of people, but it is unclear that how this 
+count leads to a conclusion of person being in a state of depression. 
+So, in my point of view research methods are not appropriate to answer the research question
+i.e "Is there any change in mental health of war veteran before and after the war"
+
+
+11) Does the underlying research result in the assembly of a data set
+    that will be useful to the wider research community?
+
+Rating: 5
+
+Comments: The authors propose to assemble tweets of veterans and common civilians. This type of data set can be used
+widely for another purposes for example comparing thoughts of veterans and common civilians on different issues.
+
+
+12) Are results clearly provided?
+
+Rating: NA
+
+Comments: Results not provided.
+
+
+13) Does the discussion of results provide a clear interpretation,
+    with reference to the research questions posed?
+
+Rating:NA
+
+Comments: No resultsand discussions are provided
+
+14) Do the conclusions emphasize how the interpreted results
+    contribute to the literature?
+
+Rating: NA
+
+Comments: Conclusion section is empty.
+
+15) Are tables and figures clearly annotated and captioned?
+
+Rating: 5 
+
+Comments: There is one table and one figure presented in the paper which are clearly annotated and captioned.
+
+16) Does the essay present comprehensive bibliographic details for
+    works cited?
+
+Rating: 5
+
+Comments: All the bibliographic details for wroks cited are clearly given in Refrences section.
+
+17) Is the essay well written in a scholarly mode of presentation?
+
+Rating: 5
+
+Comments: Yes, the essay is well wriiten.
+
+
+18) Does the description of individual contributions suggest an
+    equitable division of labour?
+
+Rating:4
+
+Comments: Individual contribution table clearly presents details on roles, however single task of data extraction 
+is attributed to 4 out of 5 people.
+
+
+19) Does the description of individual contributions provide
+    sufficiently rich description of the individual contributions in
+    a manner that allows an independent reader to assess who
+    contributed what and in a fashion that justifies any percentage
+    estimates of work?
+
+Rating: 2
+
+Comments: Data extraction part is divided in 4 people which makes it confusing to understand how this work was
+divided.
+
+20) What qualities of this paper would you argue that your own
+    group should try to emulate?
+
+Rating: 3 
+
+Comments: In some parts of the paper, the authors mention how they are going to extend the mentioned works of community.
+This part i will like to emulate in my paper.
+
+
+21) What qualities of this paper would you argue that your own
+    group should try to avoid?
+
+Rating: 3
+
+Comments: The paper's main weakness is that there is no clear agenda, in some parts paper mentions to compare mental health of
+veterans to common civilians and in other parts the authors mentioned that they intend to compare pre and post war tweets of
+war veterans. 
+Also their is no clear mention that how the sentiment analysis of users' tweets may help in predicting mental state
+of the user. 
+
+Also the major pitfall in the approach of the authors is as following.
+
+"The first step is to remove punctuation followed by Tokenizing which is the way toward separating a
+goliath string into a rundown of words. “NLTK”, a python library is used for this process. “Stop words”,
+where pull-out, as they do not change any meaning of a sentence hence, can be ignored."
+
+Here the authors have mentioned that they are going to remove stop words as they do not change any meaning of a 
+sentence. However, removing stop words is not a good idea to analyse sentiment.
+For example consider the following tweet.
+"I am not feeling happy today" => stop words removal => "I feeling happy today"
+Considering positive words("happy") as comapared to negative words(None) this tweet will be classified as "positive".
+Which is truely the undesirable outcome.
+While doing Sentiment Analysis, ignoring negations in a sentence, is most probably going to result in undesirable 
+results.
+Hence removing stop words is not a good idea while doing sentiment analysis.  
+
+22) Is this work a good candidate for a "best paper" prize?
+
+Rating: 1
+
+Comments: No, due to the flaws mentioned above it might not be a good candidate for a "best paper" prize.

@@ -1,0 +1,198 @@
+Please complete one copy of this form for each paper that you are
+given to review.
+
+Authors will not know through this process who reviewed any
+submission; it is recommended that this remain anonymous.
+
+Each review form should be returned as a plain text file with the file
+name:
+CS7IS4-TEAMn-Review-StudentNumber-SURNAME.txt
+where n in "TEAMn" is replaced by the cardinal number corresponding
+to that of the group who submitted the article to review, and where
+StudentNumber and SURNAME are that of the reviewer.
+
+These should be aggregated into a zip file and uploaded via Blackboard,
+adhering to the naming conventions described below for the individual
+files.  The zip file should be named using the convention:
+CS7IS4-REVIEWS-STUDENTNUMBER-STUDENTSURNAME-STUDENTFIRSTNAME-x-y-z-w.zip
+where x, y, z and w are the integer numbers corresponding to the group
+names of the papers reviewed, in order of increasing integer value.
+
+The student number and surname will be removed from the files that
+are returned to authors.
+
+For each question where a scale is used, the intended scale is from 1
+to 5, where 5 is the score for the best possible contribution and 1 is
+the score for work that is at the opposite end of the spectrum.  For
+each category of rating, justify your rating and provide feedback on
+how the work could be improved.
+
+
+0)  Indicate the title and authorship of the article reviewed.
+
+1)  Is the title succinct and apt with respect to the essay content?
+
+Rating: 5
+
+Comments: The title does capture the idea about paper.
+
+
+2)  Does the abstract accurately and concisely set the context for the
+  work and indicate the main hypotheses?
+
+Rating: 4
+
+Comments: I find the abstract to be precise while covering the whole research. However, in my opinion, there is some scope for improvement in way its written. For instace, the use of And's to join sentences could be avoided.
+
+3)  Are the keywords appropriate?
+
+Rating: 1
+
+Comments: This paper doesn't use keywords.
+
+
+4)  Does the essay present clearly the research topic and the research
+    questions to be pursued within the essay research?
+
+Rating: 3
+
+Comments: I observed some ambiguity in the research question to be pursued. Specifically, under the 'Background' work section, it is stated that research focuses on tweets from before and after war to find its impact on mental health. But, it doesn't happen and in other section the paper considers tweets from vetran accounts without any mention of time frame.
+
+5)  Does the research review synthesize a background literature within
+    a conceptual framework that the authors propose and defend, making
+    clear how the research questions pursued are left open by prior
+    literature?
+
+Rating: 3
+
+Comments: The paper has some background literature reviews where it talks about the other research works in similar domain. These works might be similar and have related aspects. But, it doesn't neccessarly make clear how the research questions pursued are left open by prior literature? Moreover, I would say this paper is a research on a specific set of sample space and its comparision to the other part.
+
+
+6)  Does the research question seek to relate properties of texts
+    falling within categories presented as relevant to separate
+    categories argued within the draft as dependent?
+
+Rating: 5
+
+Comments: Yes. I would say it does relate.
+
+7)  Does the methods section indicate clearly what corpora will be
+    required and what sources will be adopted for the separate
+    categories in support of answering the research questions?
+
+Rating: 5
+
+Comments: Yes. The method section does talk about the corpora and the sources that will be adopted for separate categories. Moreover, it tells about how they approached to get to these sources and their relevance.
+
+8)  Does the description of research methods indicate how the
+    corpus will be processed in order to assess it according to
+    the categorization scheme proposed within the essay?
+
+Rating: 5
+
+Comments: Yes. The paper does explain this using both text and diagram. 
+
+9)  Does the description of research methods indicate how the relevant
+    quantities and qualities will be measured and assessed,
+    stipulating what would count as a confirmation of the authors'
+    hypotheses and what would count as falsification of the authors'
+    hypotheses?
+
+Rating: 4
+
+Comments: This question might not be applicable for this paper as it tires to analyze two datasets and not confirm a hypotheses. Although, in some sense I am unclear about what the paper is trying to approach after analysis?
+
+10) Are the research methods appropriate to the question studied?
+
+Rating: 5
+
+Comments: To my knowledge the method does seem appropriate.
+
+
+11) Does the underlying research result in the assembly of a data set
+    that will be useful to the wider research community?
+
+Rating: 5
+
+Comments: If the research is similar to one proposed then it would be helpful. Even if its not, the method described to obtain data can still be used by other works.
+
+
+12) Are results clearly provided?
+
+Rating: 1
+
+Comments: No results given.
+
+
+13) Does the discussion of results provide a clear interpretation,
+    with reference to the research questions posed?
+
+Rating: 1
+
+Comments: Again, no discussion given.
+
+14) Do the conclusions emphasize how the interpreted results
+    contribute to the literature?
+
+Rating: 1
+
+Comments: No conclusions available.
+
+15) Are tables and figures clearly annotated and captioned?
+
+Rating: 5
+
+Comments: Yes, they are.
+
+16) Does the essay present comprehensive bibliographic details for
+    works cited?
+
+Rating: 5
+
+Comments: yes, it does and uses link to make it easier to refer to them.
+
+17) Is the essay well written in a scholarly mode of presentation?
+
+Rating: 4
+
+Comments: I would not say so. I found first few section quite redundant with use of few extra information, but the gist of it being exact same.
+
+
+18) Does the description of individual contributions suggest an
+    equitable division of labour?
+
+Rating: 5
+
+Comments: yes, it does suggest equal contribution of work.
+
+
+19) Does the description of individual contributions provide
+    sufficiently rich description of the individual contributions in
+    a manner that allows an independent reader to assess who
+    contributed what and in a fashion that justifies any percentage
+    estimates of work?
+
+Rating: 3
+
+Comments: The description could be a little elaborate. For instance, data extraction is almost common and other sections are also suggested to be done by whole group. It might be possible that it was done as group. However, its difficult to find whats the level of contribution by each if more than one person has a same thing written.
+
+20) What qualities of this paper would you argue that your own
+    group should try to emulate?
+
+Rating: 4
+
+Comments: The method for sentiment analysis is good and can be emulated in my research. Also, use of diagram is helpful for understanding and referencing is done well. I might use those ideas to improve my research.
+
+
+21) What qualities of this paper would you argue that your own
+    group should try to avoid?
+
+Rating: 4
+
+Comments: Leaving sections blank, redundant use of sentences, and leaving hypotheses ambiguous are few things I would try to avoid.
+
+22) Is this work a good candidate for a "best paper" prize?
+
+Rating: 4
+
+Comments: Well, at this point its not. As there are no findings and nothing to basis my answer on. If there was a discussion or results or even a hypothesesthen I could have commented better. 

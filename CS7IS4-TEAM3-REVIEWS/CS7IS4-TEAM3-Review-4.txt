@@ -1,0 +1,173 @@
+Peer Review Team3
+
+
+0)  Indicate the title and authorship of the article reviewed.
+
+Title- Sentimental Analysis of Soldiers Tweets- Comparison with Civilians.
+Authors - Sumit Mukhija, Chao Chen, Rachit Rastogi, Chen Wang, Chetan Prasad.
+
+1)  Is the title succinct and apt with respect to the essay content?
+
+Rating: 3
+
+Comments: The authors are yet to finalize their title; however, the current title looks good but not the best. The more suitable title would be making it concise.
+
+
+2)  Does the abstract accurately and concisely set the context for the
+  work and indicate the main hypotheses?
+
+Rating: 3
+
+Comments: The main hypothesis is not clear from the abstract, however it does mention about the work. It would be better to add keywords, and the main work being carried out in the Abstract.
+
+3)  Are the keywords appropriate?
+
+Rating: 1
+
+Comments: No keywords mentioned. It would be appropriate to add keywords such as Sentimental Analysis, Machine Learning, Soldiers, veterans etc.
+
+
+4)  Does the essay present clearly the research topic and the research
+    questions to be pursued within the essay research?
+
+Rating: 4
+
+Comments: The fact about the research topic is mentioned in the previous research, however it would be best to add at the end of the Introduction as most paper follow this approach.
+
+5)  Does the research review synthesize a background literature within
+    a conceptual framework that the authors propose and defend, making
+    clear how the research questions pursued are left open by prior
+    literature?
+
+Rating: 4
+
+Comments: In my opinion it would have been better if the literature survey mentioned more about the technique that might be useful for your research. Adding more techical words such as what corpus, algorithms and how did it achieve good accuracy to them would be best.
+
+6)  Does the research question seek to relate properties of texts
+    falling within categories presented as relevant to separate
+    categories argued within the draft as dependent.
+
+Rating: 3
+
+Comments: Explaining how you would handle the different types of text in your work would provide more insights on the approach.
+
+7)  Does the methods section indicate clearly what corpora will be
+    required and what sources will be adopted for the separate
+    categories in support of answering the research questions?
+
+Rating: 3
+
+Comments: The paper creates an impression that the manual corpus will be used for the research as it does not provide any information about the existing corpus, it would have been better to make it clear how would you make such corpus if you are using the manual corpus. Using the manual corpus can sometime result in biased data how would you rectify it would not be biased. Add existing corpus if exists.
+
+8)  Does the description of research methods indicate how the
+    corpus will be processed in order to assess it according to
+    the categorization scheme proposed within the essay?
+
+Rating: 3
+
+Comments: Though it is mentioned in the paper that the frequency of words will be organised as Happy or Sad type of words. It would have been better to add more information about how your corpus can handle synonyms, antonyms and words similarity.  
+
+9)  Does the description of research methods indicate how the relevant
+    quantities and qualities will be measured and assessed,
+    stipulating what would count as a confirmation of the authors'
+    hypotheses and what would count as falsification of the authors'
+    hypotheses?
+
+Rating: 3
+
+Comments: Adding explaination on what your output might be when the data is parsed against corpus can justify the hypothesis.  
+
+10) Are the research methods appropriate to the question studied?
+
+Rating: 4
+
+Comments: Elaborating more on how is your research question being evaluated would have been better.
+
+
+11) Does the underlying research result in the assembly of a data set
+    that will be useful to the wider research community?
+
+Rating:  3
+
+Comments: It is hard to judge if this dataset can be used on a wider scale now as the evaluation is still in work.
+
+
+12) Are results clearly provided?
+
+Rating: 2
+
+Comments: Only theoretical explanation on how the results will be calculated is provided, though some part of the evaluation would have been provided.
+
+
+13) Does the discussion of results provide a clear interpretation,
+    with reference to the research questions posed?
+
+Rating: 2
+
+Comments: Based on the theoretical interpretation the results might be as expected, however it is hard to judge now. Providing at least some results would be evident.
+
+14) Do the conclusions emphasize how the interpreted results
+    contribute to the literature?
+
+Rating: 1
+
+Comments: Conclusions are not presented at the moment.
+
+15) Are tables and figures clearly annotated and captioned?
+
+Rating: 4
+
+Comments: Liked the concept of flowchart design, however the references to the table would have been added. 
+
+16) Does the essay present comprehensive bibliographic details for
+    works cited?
+
+Rating: 4
+
+Comments: Used a lot of bibliography, however only few of these references were mentioned in the research area. It is not clear if all the materials provided in the bibliography were used. Removing the unused references would be reasonable. 
+
+17) Is the essay well written in a scholarly mode of presentation?
+
+Rating: 5		
+
+Comments:  The paper maintain a well return patter, however adding the content at the relevant section would be better eg: adding the research work at the end of the introduction would have been better than adding it in the previous research.
+
+
+18) Does the description of individual contributions suggest an
+    equitable division of labour?
+
+Rating: 5
+
+Comments: Team has highlighted their work well and the percentage of contribution closely relates to the work done.
+
+
+19) Does the description of individual contributions provide
+    sufficiently rich description of the individual contributions in
+    a manner that allows an independent reader to assess who
+    contributed what and in a fashion that justifies any percentage
+    estimates of work?
+
+Rating: 5
+
+Comments: Work is equally distributed and is well maintained which are clearly highlighted in the description.
+
+20) What qualities of this paper would you argue that your own
+    group should try to emulate?
+
+Rating: 5
+
+Comments: I liked the concept of highlighting the whole process in the form of flowchart, which can be used in my paper.
+
+
+21) What qualities of this paper would you argue that your own
+    group should try to avoid?
+
+Rating: 1
+
+Comments: Not providing evaluation results , using manual corpus for sentimental analysis as the chances of biasing the data is high.
+
+22) Is this work a good candidate for a "best paper" prize?
+
+Rating: 3
+
+Comments: Could have been better in lot of ways.

@@ -1,0 +1,172 @@
+0)  Indicate the title and authorship of the article reviewed.
+
+Title: Sentiment Analysis of Soldiers’ Tweets - Comparison with civilians (TBC)
+Author(s): Sumit Mukhija, Rachit Rastogi, Chao Chen, Chen Wang, Chetan Prasad
+
+1)  Is the title succinct and apt with respect to the essay content?
+
+Rating: 5
+
+Comments: Yes, the title is apt for the essay. It states correctly what the authors are trying to implement in the paper.
+
+
+2)  Does the abstract accurately and concisely set the context for the
+  work and indicate the main hypotheses?
+
+Rating: 4
+
+Comments: Overall the abstract looks good. However, it can be elaborated more with respect to 
+
+
+3)  Are the keywords appropriate?
+
+Rating: 1
+
+Comments: There were no keywords specified in the essay.
+
+
+4)  Does the essay present clearly the research topic and the research
+    questions to be pursued within the essay research?
+
+Rating: 4
+
+Comments: Yes, research topic and research methods are very much aligned. However, author(s) have not including any open question from past studies.
+
+5)  Does the research review synthesize a background literature within
+    a conceptual framework that the authors propose and defend, making
+    clear how the research questions pursued are left open by prior
+    literature?
+
+Rating:3
+
+Comments: Literature review is in detail but do not address any open issues questions.
+
+
+6)  Does the research question seek to relate properties of texts
+    falling within categories presented as relevant to separate
+    categories argued within the draft as dependent?
+
+Rating: 4
+
+Comments: There are sentiments other than sad and happy. How those sentiments will taken care of?
+
+7)  Does the methods section indicate clearly what corpora will be
+    required and what sources will be adopted for the separate
+    categories in support of answering the research questions?
+
+Rating: 4
+
+Comments: Tweets are collected from twitter for veterans and civilians taking into account various factors like age, gender and tweets count.Size(number of tweets) of the data used is specified. 
+
+8)  Does the description of research methods indicate how the
+    corpus will be processed in order to assess it according to
+    the categorization scheme proposed within the essay?
+
+Rating: 4
+
+Comments: Research methods and execution is clearly stated in the paper. However, the tool for extracting tweets is not mentioned. A thorough description of methods for sentiment analysis, available data bases and previous study on sentiment analysis is provided in paper. Figure 1 illustrates the sequence of actions involved in the experiment.
+
+9)  Does the description of research methods indicate how the relevant
+    quantities and qualities will be measured and assessed,
+    stipulating what would count as a confirmation of the authors'
+    hypotheses and what would count as falsification of the authors'
+    hypotheses?
+
+Rating: 1
+
+Comments: Details related to evaluation metrics are mentioned. However, no information regarding classification of results in the paper.
+
+10) Are the research methods appropriate to the question studied?
+
+Rating: 4
+
+Comments: Sentiment analysis using words extracted from the corpora and classifying as sad or happy may work. But there are other sentiments as well including neutral, angry, how these sentiments will be taken care of is not addressed.
+
+
+11) Does the underlying research result in the assembly of a data set
+    that will be useful to the wider research community?
+
+Rating: 1
+
+Comments: No text in results section.
+
+
+12) Are results clearly provided?
+
+Rating: 1
+
+Comments: No text in results section.
+
+
+13) Does the discussion of results provide a clear interpretation,
+    with reference to the research questions posed?
+
+Rating: 1
+
+Comments: No text in discussion section.
+
+14) Do the conclusions emphasize how the interpreted results
+    contribute to the literature?
+
+Rating: 1
+
+Comments: No text in conclusion section.
+
+15) Are tables and figures clearly annotated and captioned?
+
+Rating: 5
+
+Comments: Yes, each table and figure is clearly captioned and referred.
+
+16) Does the essay present comprehensive bibliographic details for
+    works cited?
+
+Rating: 4
+
+Comments: Yes, however references for each page in footer is more reader friendly than references in the end of paper.
+
+17) Is the essay well written in a scholarly mode of presentation?
+
+Rating: 4
+
+Comments: Lack of evaluation metric and how the classification of results will be done.
+
+
+18) Does the description of individual contributions suggest an
+    equitable division of labour?
+
+Rating: 5
+
+Comments: Yes, the work is divided equally as per the tasks mentioned for each.
+
+
+19) Does the description of individual contributions provide
+    sufficiently rich description of the individual contributions in
+    a manner that allows an independent reader to assess who
+    contributed what and in a fashion that justifies any percentage
+    estimates of work?
+
+Rating: 5
+
+Comments: Yes, the task assigned to each individual are properly stated in the start of the paper along  with individual contribution percentage. Tasks seems to be equally divided.
+
+20) What qualities of this paper would you argue that your own
+    group should try to emulate?
+
+Rating: 3
+
+Comments: Figure illustrating sequence of actions involved in the process. It makes the process easy to understand. References in the paper are very appropriate.
+
+
+21) What qualities of this paper would you argue that your own
+    group should try to avoid?
+
+Rating: 3
+
+Comments: Tools used for extraction of tweets is not mentioned. Tools used in the process should be clearly stated in the paper. Each page should have the references in the footer(in the essay, references are in the end).
+
+22) Is this work a good candidate for a "best paper" prize?
+
+Rating: 3
+
+Comments: Missing keywords and no information regarding tools used for data processing and evaluation.

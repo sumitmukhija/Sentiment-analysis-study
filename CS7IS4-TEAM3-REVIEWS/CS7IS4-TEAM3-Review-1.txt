@@ -1,0 +1,241 @@
+Please complete one copy of this form for each paper that you are
+given to review.
+
+Authors will not know through this process who reviewed any
+submission; it is recommended that this remain anonymous.
+
+Each review form should be returned as a plain text file with the file
+name:
+CS7IS4-TEAMn-Review-StudentNumber-SURNAME.txt
+where n in "TEAMn" is replaced by the cardinal number corresponding
+to that of the group who submitted the article to review, and where
+StudentNumber and SURNAME are that of the reviewer.
+
+These should be aggregated into a zip file and uploaded via Blackboard,
+adhering to the naming conventions described below for the individual
+files.  The zip file should be named using the convention:
+CS7IS4-REVIEWS-STUDENTNUMBER-STUDENTSURNAME-STUDENTFIRSTNAME-x-y-z-w.zip
+where x, y, z and w are the integer numbers corresponding to the group
+names of the papers reviewed, in order of increasing integer value.
+
+The student number and surname will be removed from the files that
+are returned to authors.
+
+For each question where a scale is used, the intended scale is from 1
+to 5, where 5 is the score for the best possible contribution and 1 is
+the score for work that is at the opposite end of the spectrum.  For
+each category of rating, justify your rating and provide feedback on
+how the work could be improved.
+
+
+0)  Indicate the title and authorship of the article reviewed.
+
+Title: "Sentiment Analysis of Soldiers' Tweets - Comparison with civilians"
+authorship: Sumit Mukhija, Rachit Rastogi, Chao Chen, Chen Wang, Chetan Prasad
+
+1)  Is the title succinct and apt with respect to the essay content?
+
+Rating: 5
+
+Comments: The title is expressed clearly and briefly and relates with the aim of
+          the research.
+
+
+2)  Does the abstract accurately and concisely set the context for the
+  work and indicate the main hypotheses?
+
+Rating: 5
+
+Comments: Yes, the abstract indicates the main hypothesis and sets the context
+          for the work. The abstract is written in a very concise and precise
+          manner.
+
+3)  Are the keywords appropriate?
+
+Rating: 1
+
+Comments: There is no mention of the keywords in the research article.
+
+
+4)  Does the essay present clearly the research topic and the research
+    questions to be pursued within the essay research?
+
+Rating: 5
+
+Comments: Yes, the research topic is clearly expressed. The research question is
+          written in a very understandable manner.
+
+5)  Does the research review synthesize a background literature within
+    a conceptual framework that the authors propose and defend, making
+    clear how the research questions pursued are left open by prior
+    literature?
+
+Rating: 5
+
+Comments: The article has proper literature review. The literature review clearly
+          supports the proposed research hypothesis, methods and platform chosen
+          for the research. The literature review shows that wars do affect
+          veterans mentally which can be seen as a form of linguistic change in
+          them. This research questions is trying to prove this using a new
+          approach.
+
+
+6)  Does the research question seek to relate properties of texts
+    falling within categories presented as relevant to separate
+    categories argued within the draft as dependent?
+
+Rating: 5
+
+Comments: Yes, As the research question is only limited to doing the sentiment
+          Analysis of the tweets, only polarity of the tweets are considered which
+          in turn will be used to identify the mental state of war veterans.
+          Considering other features of text apart from sentiments
+          may also lead to some surprising results.
+
+7)  Does the methods section indicate clearly what corpora will be
+    required and what sources will be adopted for the separate
+    categories in support of answering the research questions?
+
+Rating: 5
+
+Comments: yes, the dataset and the source of the dataset has been clearly
+          mentioned.
+
+8)  Does the description of research methods indicate how the
+    corpus will be processed in order to assess it according to
+    the categorization scheme proposed within the essay?
+
+Rating: 5
+
+Comments: Yes, the research method shows very well and clearly using a flow
+          diagram how the corpus will be processed. More details about the
+          twitter api used for data collection should be provided. So that in
+          future if someone tries to emulate the experiment it should be easier
+          for them. Moreover, there should be mention of what sentiment analysis
+          tool has been used for this process.
+
+9)  Does the description of research methods indicate how the relevant
+    quantities and qualities will be measured and assessed,
+    stipulating what would count as a confirmation of the authors'
+    hypotheses and what would count as falsification of the authors'
+    hypotheses?
+
+Rating: 4
+
+Comments: Although it can be inferred from the essay that the research question
+          is trying to find difference in the sentiments of the tweets by war
+          veterans and civilians but has not mentioned whether it is expecting
+          that the sentiments of the veterans to be more positive or more
+          negative in comparison to the civilians.
+
+10) Are the research methods appropriate to the question studied?
+
+Rating: 5
+
+Comments: Yes, the research methods chosen for this question are appropriate.
+          The sentiment analysis method should consider emoticons too as majority
+          of twitter users use them to express their feelings.
+
+
+11) Does the underlying research result in the assembly of a data set
+    that will be useful to the wider research community?
+
+Rating: 3
+
+Comments: As the research question is only limited to the war veterans, I do
+          not think that it can be generalized to a wider research community.
+
+
+12) Are results clearly provided?
+
+Rating: 1
+
+Comments: No comments can be made because results are not provided.
+
+
+13) Does the discussion of results provide a clear interpretation,
+    with reference to the research questions posed?
+
+Rating: 1
+
+Comments: No comments can be made because results are not provided.
+
+14) Do the conclusions emphasize how the interpreted results
+    contribute to the literature?
+
+Rating: 1
+
+Comments: No comments can be made because results are not provided.
+
+15) Are tables and figures clearly annotated and captioned?
+
+Rating: 1
+
+Comments: No comments can be made because the article does not contain any figures
+          or tables.
+
+16) Does the essay present comprehensive bibliographic details for
+    works cited?
+
+Rating: 5
+
+Comments:  Yes, the essay mentions references of all the works cited at the end.
+           The reference style used is very convenient to refer to document
+           which is being cited.
+
+17) Is the essay well written in a scholarly mode of presentation?
+
+Rating: 5
+
+Comments: Yes, the essay is well written in scholarly mode of presentation.
+
+
+18) Does the description of individual contributions suggest an
+    equitable division of labour?
+
+Rating: 5
+
+Comments: Yes, there has been a fair division of work among the group members.
+
+
+19) Does the description of individual contributions provide
+    sufficiently rich description of the individual contributions in
+    a manner that allows an independent reader to assess who
+    contributed what and in a fashion that justifies any percentage
+    estimates of work?
+
+Rating: 5
+
+Comments:Yes, the contribution of each individual member is clearly expressed.
+          By reading the essay anyone can assess which member has worked on which
+          part of the essay clearly.
+
+20) What qualities of this paper would you argue that your own
+    group should try to emulate?
+
+Rating: 5
+
+Comments: Our own group should emulate following qualities of this paper:
+          1) mentioning the organization of the paper which is indicated in the
+          introduction section.
+          2) the reference style used in the paper.
+
+
+21) What qualities of this paper would you argue that your own
+    group should try to avoid?
+
+Rating: 5
+
+Comments: I did not find any such qualities which I would argue that my own
+          group should try to avoid.
+
+22) Is this work a good candidate for a "best paper" prize?
+
+Rating: 5
+
+Comments: Overall, the paper is written in a very good and detailed  manner.
+          The language used is very clear and all the sections written are very
+          easy to understand. In addition, the results of the research question
+          can have major implications in treating the war veterans who have some
+          mental problems. So this paper can be a good candidate for "best paper"
+          prize.

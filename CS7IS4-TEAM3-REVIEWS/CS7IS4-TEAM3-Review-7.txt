@@ -1,0 +1,338 @@
+Please complete one copy of this form for each paper that you are
+given to review.
+
+Authors will not know through this process who reviewed any
+submission; it is recommended that this remain anonymous.
+
+Each review form should be returned as a plain text file with the file
+name:
+CS7IS4-TEAMn-Review-StudentNumber-SURNAME.txt
+where n in "TEAMn" is replaced by the cardinal number corresponding
+to that of the group who submitted the article to review, and where
+StudentNumber and SURNAME are that of the reviewer.
+
+These should be aggregated into a zip file and uploaded via Blackboard,
+adhering to the naming conventions described below for the individual
+files.  The zip file should be named using the convention:
+CS7IS4-REVIEWS-STUDENTNUMBER-STUDENTSURNAME-STUDENTFIRSTNAME-x-y-z-w.zip
+where x, y, z and w are the integer numbers corresponding to the group
+names of the papers reviewed, in order of increasing integer value.
+
+The student number and surname will be removed from the files that
+are returned to authors.
+
+For each question where a scale is used, the intended scale is from 1
+to 5, where 5 is the score for the best possible contribution and 1 is
+the score for work that is at the opposite end of the spectrum.  For
+each category of rating, justify your rating and provide feedback on
+how the work could be improved.
+
+
+
+0)  Indicate the title and authorship of the article reviewed.
+
+Title: Sentiment Analysis of Soldiers’ Tweets - Comparison with civilians (TBC)
+Authors: Sumit Mukhija, Chao Chen, Rachit Rastogi, Chen Wang, Chetan Prasad
+
+
+
+
+1)  Is the title succinct and apt with respect to the essay content?
+
+Rating: 4
+
+Comments: 
+- The title of the essay is apt with the content, it briefly summarizes the content which is going to be discussed in the essay. 
+- Also, it describes the topic and the method of the study. 
+- One point is deducted for mentioning abbreviation in the title whose full form cannot be interpreted unless specified.
+- It is a good practice not to have any abbreviations in the title. Following article explains, gives a nice overview of how to select research paper title.
+
+https://www.enago.com/academy/write-irresistible-research-paper-title/
+
+
+
+
+2)  Does the abstract accurately and concisely set the context for the
+  work and indicate the main hypotheses?
+
+Rating: 3
+
+Comments: 
+- The abstract vaguely discuss the context for the work. But it does explain the methodology for the research.
+- It is not indicating the main hypothesis anywhere in the abstract.
+- It is more focussed towards existing work.
+- The implementation details should not be a part of the abstract. It can be included in the Data processing section of the paper.
+
+
+
+
+3)  Are the keywords appropriate?
+
+Rating: 1
+
+Comments: 
+- Keywords are absent from the paper.  
+- Few keyword suggestions for this paper would be Sentiment Analysis, Veterans psychology, Mental Health  
+
+
+
+
+
+4)  Does the essay present clearly the research topic and the research
+    questions to be pursued within the essay research?
+
+Rating: 3
+
+Comments:
+- The research question is not mentioned clearly in the presented work. rather, it is discussed in the previous work section.
+- The research question can be introduced after previous work section which will set the background as to why this research question is chosen and how it fills the gap present in the existing research.
+
+
+
+
+
+5)  Does the research review synthesize a background literature within
+    a conceptual framework that the authors propose and defend, making
+    clear how the research questions pursued are left open by prior
+    literature?
+
+Rating: 4
+
+Comments:
+- The research review done within the existing work synthesizes a detailed background literature review.
+- It would be great if the literature review included within the Available Database on Sentiment Analysis is included before defining the research question.
+- Authors have nicely described the related work and how this work is different from the existing research work in paragraph 2 of the previous work section.
+
+
+
+
+
+
+6)  Does the research question seek to relate properties of texts
+    falling within categories presented as relevant to separate
+    categories argued within the draft as dependent?
+
+Rating: 4
+
+Comments: 
+- The research question relates the sentiment of the tweets of soldiers and trying to correlate that with their mental health. 
+- Further, the comparative analysis of tweets from soldiers is done with ordinary users.
+- Authors are evaluating hypothesis by comparing it with tweets by the civilians.
+
+
+
+
+
+
+7)  Does the methods section indicate clearly what corpora will be
+    required and what sources will be adopted for the separate
+    categories in support of answering the research questions?
+
+Rating: 5
+
+Comments:
+- The first paragraph of Section-3 explained clearly, why Twitter is the best platform from where data can be collected for answering the research question under the consideration.
+- The method for selection of profiles of the users on twitter is also explained very well.
+
+
+
+
+
+8)  Does the description of research methods indicate how the
+    corpus will be processed in order to assess it according to
+    the categorization scheme proposed within the essay?
+
+Rating: 5
+
+Comments:
+- Section 3 of the paper clearly describes the research methods indicating how the corpus will be processed with the help of a block diagram.
+
+
+
+
+
+
+9)  Does the description of research methods indicate how the relevant
+    quantities and qualities will be measured and assessed,
+    stipulating what would count as a confirmation of the authors'
+    hypotheses and what would count as falsification of the authors'
+    hypotheses?
+
+Rating: 3
+
+Comments:
+- The research essay has nicely explained the initial analysis that will be done on the twitter corpora.
+- The detailed analysis of how the relevant quantities and qualities will be measured is not done.
+- Also, any details about what would count as a confirmation of the authors' hypothesis and what would count as falsification of the authors' hypothesis are not explained.
+
+
+
+
+
+
+10) Are the research methods appropriate to the question studied?
+
+Rating: 4
+
+Comments:
+- The research methods are very well defined
+- The data analysis of tweets is explained very well and further steps are also very well defined. 
+
+
+
+
+
+11) Does the underlying research result in the assembly of a data set
+    that will be useful to the wider research community?
+
+Rating: 3
+
+Comments:
+- The dataset collection process is not explained in the essay.
+- The availability of assembled data hence cannot be judged.
+
+
+
+
+
+
+12) Are results clearly provided?
+
+Rating: 1
+
+Comments: 
+- Results are yet to be included.
+
+
+
+
+
+13) Does the discussion of results provide a clear interpretation,
+    with reference to the research questions posed?
+
+Rating: 1
+
+Comments:
+- Results are yet to be included.
+
+
+
+
+
+14) Do the conclusions emphasize how the interpreted results
+    contribute to the literature?
+
+Rating: 1
+
+Comments:
+- The conclusion is yet to be included.
+
+
+
+
+
+
+15) Are tables and figures clearly annotated and captioned?
+
+Rating: 4
+
+Comments:
+- The tables and figures are annotated with captions
+- The arrows in the workflow diagram from Figure 1 are inconsistent, It can be improved.
+
+
+
+
+
+
+
+16) Does the essay present comprehensive bibliographic details for
+    works cited?
+
+Rating: 5
+
+Comments: 
+- The essay presents an extensive list of relevant bibliographic details for the work cited.
+
+
+
+
+
+
+17) Is the essay well written in a scholarly mode of presentation?
+
+Rating: 4
+
+Comments:
+- The essay is organized in the scholarly mode of presentation except for a few spelling mistakes.
+- The essay should be proofread once before submitting.
+
+
+
+
+
+
+18) Does the description of individual contributions suggest an
+    equitable division of labour?
+
+Rating: 3
+
+Comments: 
+- The Nature of contribution does not clearly explain how an individual has contributed to this paper.
+- It briefly describes an individual's contribution which makes it difficult to judge the equitable division of labour.
+
+
+
+
+
+
+19) Does the description of individual contributions provide
+    sufficiently rich description of the individual contributions in
+    a manner that allows an independent reader to assess who
+    contributed what and in a fashion that justifies any percentage
+    estimates of work?
+
+Rating: 3
+
+Comments:
+- The description of individual contributions does not provide a sufficiently rich description of the individual contribution.
+- Two Authors have written the same description without specifying how different it was from another.
+
+
+
+
+
+
+20) What qualities of this paper would you argue that your own
+    the group should try to emulate?
+
+Rating: 3
+
+Comments:
+- This research essay has nicely explained their choice of the dataset, which our group can include in the final essay
+- The literature review is very well done.
+
+
+
+
+
+
+21) What qualities of this paper would you argue that your own
+    group should try to avoid?
+
+Rating:3
+
+Comments:
+- The organization of paper can be improved, for example, the first paragraph of section 2.2 provides an overview of method which is not been implemented the second paragraph discuss research method which is not in line with the first. and our group can consider this issue while drafting the final essay.
+
+
+
+
+
+22) Is this work a good candidate for a "best paper" prize?
+
+Rating:3
+
+Comments:
+- This paper has done a great job of explaining the choice of platform for corpus analysis.
+- There is a scope of improvement in research methods discussed.
