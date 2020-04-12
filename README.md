@@ -15,10 +15,12 @@ By Group 3.
 
 - words
   - a plenty of lexicons to choose: https://web.stanford.edu/~jurafsky/slp3/slides/21_SentLex.pdf
-- slang on the internet
+  - sentiwordnet can be a good tool
+    - see http://www.nltk.org/howto/sentiwordnet.html
+- count slang on the internet
   - https://saveti.kombib.rs/twerminology-twitter-slang-words-and-abbreviations
   - https://mashable.com/2013/07/19/twitter-lingo-guide/?europe=true
-- emoji
+- count emoji
 
 #### Others
 
