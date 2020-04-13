@@ -7,6 +7,8 @@ By Group 3.
 
 ## Preprocessing
 
+Preprocessing using tool: https://github.com/vasisouv/tweets-preprocessor
+
 ## Analyzing Methods
 
 ### Comparing Liguistic Features
