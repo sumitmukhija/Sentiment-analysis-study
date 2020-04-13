@@ -8,7 +8,39 @@
 
 \subsubsection{Sentiment Analysis}
 
-We use a lexicon called SentiWordNet to
+We use a lexicon called SentiWordNet for scoring the words in our corpus.
+We filtered the tweets originated from only users themself, which means retweets will be removed.
+The corpus is first preprocessed to remove elements mentioned in Tab.\ref{table:elementsRemoved}:
+
+\begin{table}[h]
+  \caption{Elements to be removed when proprocessing}
+  \label{table:elementsRemoved}
+  \centering
+  \renewcommand{\tabularxcolumn}{m} % we want center vertical alignment
+  \begin{tabularx}{\textwidth}{l  l || l  l}
+    \toprule
+    \textbf{Element} & \textbf{Examples} & \textbf{Element}    & \textbf{Examples}
+    \tabularnewline \midrule
+    URLs
+                     &
+    http://foo.bar   & Blank spaces      &
+    \tabularnewline \hline
+    Mentions to other users
+                     & @Bot              & Single letter words & a b c
+    \tabularnewline \hline
+    Hashtags
+                     & \#botRise         & Numbers             & 1994 233
+    \tabularnewline \hline
+    Twitter reserved words
+                     & RT via            &
+                     &
+    \tabularnewline \bottomrule
+  \end{tabularx}
+\end{table}
+
+We try not to remove punctuations and stopwords because we need to do Part-of-Speech(POS) tagging after tokenizing. When we remove numbers when try to remain the years (from 1900 to 2100).
+
+Once the POS tags of words are generated. We up the words in SentiWordNet to determine the scoring for positiveness, negativeness and objectiveness. A score of one is generated
 
 \subsubsection{Emotion Analysis}
 
