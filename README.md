@@ -3,6 +3,10 @@
 The groupwork of CS7IS4 TEXT ANALYTICS.
 By Group 3.
 
+Peer Reviews Collected here:
+
+[Peer Reviews](./reviewFeedbacks.md)
+
 ## Data Collection
 
 ## Preprocessing
@@ -21,6 +25,8 @@ Preprocessing using tool: https://github.com/vasisouv/tweets-preprocessor
   - a plenty of lexicons to choose: https://web.stanford.edu/~jurafsky/slp3/slides/21_SentLex.pdf
   - sentiwordnet can be a good tool
     - see http://www.nltk.org/howto/sentiwordnet.html
+    - POS converting problem:
+      - POS list of NLTK tagger: https://medium.com/@gianpaul.r/tokenization-and-parts-of-speech-pos-tagging-in-pythons-nltk-library-2d30f70af13b
 - count slang on the internet
   - https://saveti.kombib.rs/twerminology-twitter-slang-words-and-abbreviations
   - https://mashable.com/2013/07/19/twitter-lingo-guide/?europe=true
