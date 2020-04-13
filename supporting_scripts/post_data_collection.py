@@ -136,23 +136,24 @@ class Preprocess(object):
             file.write(json.dumps(self.civilian_stats))
 
 if __name__ == "__main__":
-    start_time = time.time()
-    pr = Preprocess()
-    vet_df = pr.get_dataframe()
-    vet_df = vet_df[['tweet', 'time', 'photos', 'replies_count', 'retweets_count', 'likes_count', 'retweet']]
-    vet_df = vet_df[(vet_df['retweet'] == False)]
-    print("Vet Shape: {}".format(vet_df.shape))
-    pr.clean_veteran_tweet_and_create_df(vet_df)
-    print("--- %s seconds ---" % (time.time() - start_time))
+    # start_time = time.time()
+    # pr = Preprocess()
+    # vet_df = pr.get_dataframe()
+    # vet_df = vet_df[['tweet', 'time', 'photos', 'replies_count', 'retweets_count', 'likes_count', 'retweet']]
+    # vet_df = vet_df[(vet_df['retweet'] == False)]
+    # print("Vet Shape: {}".format(vet_df.shape))
+    # pr.clean_veteran_tweet_and_create_df(vet_df)
+    # print("--- %s seconds ---" % (time.time() - start_time))
     
 
     start_time = time.time()
     pr = Preprocess()
-    civ_df = pr.get_dataframe()
+    civ_df = pr.get_dataframe(data_type="civilians")
     civ_df = civ_df[['tweet', 'time', 'photos', 'replies_count', 'retweets_count', 'likes_count', 'retweet']]
     civ_df = civ_df[(civ_df['retweet'] == False)]
     print("Civ Shape: {}".format(civ_df.shape))
-    pr.clean_veteran_tweet_and_create_df(vet_df)
-    print("--- %s seconds ---" % (time.time() - start_time))
 
-    pr.aggregate_stats_from_df(vet_df, civ_df) # Stats directly extracted from the twitter data
+    # pr.clean_veteran_tweet_and_create_df(vet_df)
+    # print("--- %s seconds ---" % (time.time() - start_time))
+
+    # pr.aggregate_stats_from_df(vet_df, civ_df) # Stats directly extracted from the twitter data
