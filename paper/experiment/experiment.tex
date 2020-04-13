@@ -42,8 +42,6 @@ The corpus is first preprocessed to remove elements mentioned in Tab.\ref{table:
 When we remove numbers we try to remain the years (from 1900 to 2100).
 We try not to remove punctuations and stopwords because we need to do Part-of-Speech (POS) tagging after tokenizing. Both tokenizing and POS tagging is done by NLTK \citep{NLTK}.
 
-Once the POS tags of words are generated. We up the words in SentiWordNet to determine the scoring for positiveness, negativeness and objectiveness, while using EmoLex to perform emotion analysis with 10 emotions. Scores of one tweet are generated caculating the means of the scores of all the words after preprocessing.
+Once the POS tags of words are generated. We search the synonyms of words in SentiWordNet to determine the scoring for positiveness, negativeness and objectiveness by caculating means among synonyms. Meanwhile EmoLex is used to perform emotion analysis on 10 emotions. Scores of one tweet are generated caculating the means of the scores of all the words after preprocessing.
 
-The result data is shown in Tab.\ref{}. And we counted words with top ?? frequency in soldiers and civilians corpora, the lists are shown in Tab.\ref{}.
-
-\subsection{Results}
+The result data is shown in Tab.\ref{}. We also counted words with top ?? frequencies in soldiers and civilians corpora, the lists are shown in Tab.\ref{}.
