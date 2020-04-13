@@ -20,7 +20,8 @@ By Group 3.
 - count slang on the internet
   - https://saveti.kombib.rs/twerminology-twitter-slang-words-and-abbreviations
   - https://mashable.com/2013/07/19/twitter-lingo-guide/?europe=true
-- count emoji
+- count emojis / emoticons
+  - https://github.com/SEntiMoji/SEntiMoji
 
 #### Others
 
