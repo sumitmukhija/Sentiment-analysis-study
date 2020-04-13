@@ -44,7 +44,7 @@ the tweets into Happy and sad/depressing sentiments. This is sufficient
 considering our work is to identify the difference in the mental states between
 the soldiers who have served in wars and common people.
 
-\subsection{Sentiment Analysis on Social Media}
+\subsection{Sentiment and Emotion Analysis on Social Media}
 
 Emotion and sentiment are treated as different concepts in psychology. The
 definition of \enquote{emotion} is a complex psychological state, which plays an
@@ -57,3 +57,7 @@ texts. The tests are probably positive, negative or neutral. The approach is
 often counting the word using and produce scores due to the lexicons.
 
 There are commonly two approaches - analysing users' social activities and calculate linguistic features of user-generated texts. The sentiment analysis mainly focuses on short texts(tweets) generated from Twitter accounts, since most of the data is public by default and easy to obtain online. Also, the tweets are short(limited to 280 characters) and often appears with spelling mistakes and slangs. A tweet often comes with other features like spreading tweets(retweet) from other accounts. These methods mentioned above make the analysis on tweets a paradigm to explore.
+
+SentiWordNet makes use of Opinion Mining, which is understanding the opinion of text more than the topic \citep{esuli2006sentiwordnet}. Sentiwordnet is a lexical resource which scores a text on three premises object, positivity and negativity. Synsets are the building blocks of the Sentiwordnet, they form a wordnet and the wordnet is associated with the three scores. The three scores help determine how objective, positive and negative the text is. Sentiwordnet is an open-source software which is free to use and helps in extracting the sentiment of the text. The latest version of this is SentiWordNet 3.0 \citep{baccianella2010sentiwordnet} which is being used in this project. The latest version of Sentiwordnet uses an updated Wordnet compared to the older version. The algorithm used is updated to include random walk step to refine the scores. There is also considerable improvement in the accuracy of Sentiwordnet 3.0. It is used in numerous projects for the analysis of reviews and other related matters to understand whether the text is subjective or objective.
+
+\cite{montejo2012random} has defined a work that uses SentiWordNet on Twitter data to identify the polarity of sentiment of the users. They extract weighted vector and use it in the SentiWordNet to determine the polarity making it an unsupervisedsolution. We are going to be using SentiWordNet on tweets in order to understand the differences between the tweets of a soldier and that of a normal user.
