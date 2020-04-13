@@ -7,6 +7,8 @@ Peer Reviews Collected here:
 
 [Peer Reviews](./reviewFeedbacks.md)
 
+Contribution Table: https://docs.google.com/document/d/1p5oBujDSnjKxoWRFll8wwKt7zMlYQPvi6pvFZxVhvdw/edit?usp=sharing
+
 ## Data Collection
 
 ## Preprocessing
