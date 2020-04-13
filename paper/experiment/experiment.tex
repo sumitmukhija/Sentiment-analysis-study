@@ -6,9 +6,10 @@
 
 \subsubsection{TBC}
 
-\subsubsection{Sentiment Analysis}
+\subsubsection{Sentiment \& Emotion Analysis}
 
-We use a lexicon called SentiWordNet for scoring the words in our corpus.
+We use lexicons to score the words in our corpus.
+SentiWordNet \citep{baccianella2010sentiwordnet} is used for sentiment polarity analysis and NRC Word-Emotion Association Lexicon (EmoLex) \citep{Mohammad13} is for emotion analysis.
 We filtered the tweets originated from only users themself, which means retweets will be removed.
 The corpus is first preprocessed to remove elements mentioned in Tab.\ref{table:elementsRemoved}:
 
@@ -38,10 +39,11 @@ The corpus is first preprocessed to remove elements mentioned in Tab.\ref{table:
   \end{tabularx}
 \end{table}
 
-We try not to remove punctuations and stopwords because we need to do Part-of-Speech(POS) tagging after tokenizing. When we remove numbers when try to remain the years (from 1900 to 2100).
+When we remove numbers we try to remain the years (from 1900 to 2100).
+We try not to remove punctuations and stopwords because we need to do Part-of-Speech (POS) tagging after tokenizing. Both tokenizing and POS tagging is done by NLTK \citep{NLTK}.
 
-Once the POS tags of words are generated. We up the words in SentiWordNet to determine the scoring for positiveness, negativeness and objectiveness. A score of one is generated
+Once the POS tags of words are generated. We up the words in SentiWordNet to determine the scoring for positiveness, negativeness and objectiveness, while using EmoLex to perform emotion analysis with 10 emotions. Scores of one tweet are generated caculating the means of the scores of all the words after preprocessing.
 
-\subsubsection{Emotion Analysis}
+The result data is shown in Tab.\ref{}. And we counted words with top ?? frequency in soldiers and civilians corpora, the lists are shown in Tab.\ref{}.
 
 \subsection{Results}
