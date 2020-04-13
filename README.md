@@ -7,6 +7,8 @@ By Group 3.
 
 ## Preprocessing
 
+**NEED TO INSTALL BY FOLLWING THE README IN THEIR REPO**
+
 Preprocessing using tool: https://github.com/vasisouv/tweets-preprocessor
 
 ## Analyzing Methods
@@ -55,6 +57,8 @@ Once the Big 5 is out, the Dark Triad personalities can be infered with mappings
 ### NRC Word-Emotion Association Lexicon (EmoLex)
 
 check this: https://github.com/dropofwill/py-lex
+
+use `py-lex` with lexicons (also with some papers) from here: http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm
 
 ## Visualization
 
