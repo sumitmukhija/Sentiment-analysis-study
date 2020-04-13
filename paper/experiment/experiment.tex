@@ -8,10 +8,9 @@
 
 \subsubsection{Sentiment \& Emotion Analysis}
 
-We use lexicons to score the words in our corpus.
-SentiWordNet is used for sentiment polarity analysis and NRC Word-Emotion Association Lexicon (EmoLex) \citep{Mohammad13} is for emotion analysis.
-We filtered the tweets originated from only users themself, which means retweets will be removed.
-The corpus is first preprocessed to remove elements mentioned in Tab.\ref{table:elementsRemoved}:
+Tweets are filtered and only tweets with texts originate from uses themselve remain, which means the likes and directly retweets are filtered.
+
+The corpora are then preprocessed to remove elements mentioned in Tab.\ref{table:elementsRemoved}:
 
 \begin{table}[h]
   \caption{Elements to be removed when proprocessing}
@@ -42,6 +41,9 @@ The corpus is first preprocessed to remove elements mentioned in Tab.\ref{table:
 When we remove numbers we try to remain the years (from 1900 to 2100).
 We try not to remove punctuations and stopwords because we need to do Part-of-Speech (POS) tagging after tokenizing. Both tokenizing and POS tagging is done by NLTK \citep{NLTK}.
 
+We use lexicons to score the words in our corpus.
+SentiWordNet is used for sentiment polarity analysis and NRC Word-Emotion Association Lexicon (EmoLex) \citep{Mohammad13} is for emotion analysis.
+
 Once the POS tags of words are generated. We search the synonyms of words in SentiWordNet to determine the scoring for positiveness, negativeness and objectiveness by caculating means among synonyms. Meanwhile EmoLex is used to perform emotion analysis on 10 emotions. Scores of one tweet are generated caculating the means of the scores of all the words after preprocessing.
 
-The result data is shown in Tab.\ref{}. We also counted adjectives with top ?? frequencies in soldiers and civilians corpora, for adjectives have more meanings  The list of adjectives are shown in Tab.\ref{}.
+The result data is shown in Tab.\ref{}. We also counted adjectives with top ?? frequencies in soldiers and civilians corpora, for we think that adjectives have more subjective meanings than verbs, nouns, etc. The list of adjectives are shown in Tab.\ref{}.
