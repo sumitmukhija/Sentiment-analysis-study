@@ -1,0 +1,142 @@
+\section{Background}
+
+\subsection{Previous Work on Mental Health of Veterans}
+
+In order to make a medical diagnosis for patients, psychologists often use the
+linguistic content and expression of patients to judge their emotional changes
+and mental state according to previous research in psychology and linguistic.
+The clinical diagnosis efficiency has been greatly improved because of the
+progress of science and technology, especially in computational linguistics.
+In addition, the widespread of social media such as Facebook, Twitter and
+Instagram, has provided mental researchers with a large scale of data.
+Therefore, they could easily use the collected dataset and machine learning
+techniques for sentiment analysis. Linguistic contents which users posted on
+social media have been proved to be the basis for evaluating a person's mental
+state (\cite{becauseIwastoldsomuch} and \cite{GUNTUKU201743}). However,
+the majority of research targets are normal people.
+
+In this paper, veterans will be regarded as research targets. Westgate in
+\cite{doi:10.1176/appi.ps.201400283} has come up with a method about the evaluation
+of veterans' suicide risk. This paper will concentrate on analyzing
+the impact of the war on veterans' mental state through the Twitters posted by
+themselves before and after the war instead of focusing on the prediction of
+the suicide risk of veterans. In addition, the comparison with the twitters
+released by ordinary users will be presented. Finally, comprehensive
+sentiment analysis of veterans will be summarized.
+
+\subsection{Available Database on Sentiment Analysis}
+
+Sentiment analysis is a very useful method for analysing the sentiment of an
+article, tweets or reviews. The advances in Natural Language processing and
+linguistic research have led to the development of different methods of
+sentiment analysis. The sentiment analysis is an integral part of our work and
+it is the fulcrum on which our hypothesis hangs on. Determining not just the
+sentiment of a text but even the topic (\cite{10.1145/1645953.1646003}) on which
+it is written on is one of the interesting works in this field. Another work
+makes use of the lexicons in the text and word dictionaries to extract the
+sentiment behind it (\cite{10.5555/2002472.2002491}). There is another work that
+trains a model to learn not just the words but to also capture the sentiment
+behind it (\cite{taboada2011lexicon}).
+
+In this work, we do sentiment analysis on tweets and we compare the tweets of
+two types of users. We utilise a simple model which basically just classifies
+the tweets into Happy and sad/depressing sentiments. This is sufficient
+considering our work is to identify the difference in the mental states between
+the soldiers who have served in wars and common people.
+
+\subsection{Sentiment Analysis on Social Media}
+
+Emotion and sentiment are treated as different concepts in psychology. The
+definition of \enquote{emotion} is a complex psychological state, which plays an
+important role in operating motivators. For \enquote{sentiment}, it is created based on
+emotion to refer to a mental attitude. A survey providing more information can
+be referred to by \cite{yue2018survey}.
+
+In sentiment analysis, the typical task is finding the polarities of the given
+texts. The tests are probably positive, negative or neutral. The approach is
+often counting the word using and produce scores due to the lexicons.
+
+The combination of machine learning and data mining techniques are the key part
+of sentiment analysis on social media. There are commonly two approaches -
+analysing users' social activities and calculate linguistic features of
+user-generated texts. The sentiment analysis mainly focuses on short texts(tweets)
+generated from Twitter accounts, since most of the data is public by default and
+easy to obtain online. Also, the tweets are short(limited to 280 characters) and
+often appears with spelling mistakes and slangs. A tweet often comes with other
+features like spreading tweets(retweet) from other accounts. These mentioned
+above makes the analysis on tweets a paradigm to explore.
+
+\cite{robustTwitter2010Luciano} produced an approach to automatically analyse
+sentiment on tweets with metainformation as retweets, hashtags, replies,
+punctuations and emoticons. They also use sources of noisy labels in their
+training data to test the robustness of the model.
+
+\cite{agarwal2011sentiment} performed sentiment analysis on Twitter data using POS-
+specific prior polarity features, the lexicon features and also the meta
+features. They use a tree structure to represent tweets and used a partial tree
+kernel to measure the similarity between two set of tweets.
+
+\cite{opinionMiningLiang2013} developed a Unigram Naive Bayes model for
+sentiment analysis on Twitter data. The $\chi^2$ feature extraction method
+and Mutual Information were used to delete unwanted features, and then predictions
+were made on the tweets whether they were positive or negative. They found that
+the combination of prior polarity of words and their POS tags affects the most.
+
+\cite{bhavsar2019sentiment} used a dataset from Kaggle and classify the people
+emotions based on positive and negative reviews. The model they produced can
+perform well on a large dataset.
+
+The International Workshop on Semantic Evaluation(also known as SemEval)
+started holding tasks related to sentiment analysis on social media since 2013.
+The rankings of each tasks are made public also with solutions. A list of task
+can be found in Table.\ref{table:SemEvalTasks}. % TODO task table
+
+% TODO chage the table, kept as a example on table
+
+\begin{table}[h]
+  \caption{The tasks of SemEval on sentiment analysis of tweets}
+  \label{table:SemEvalTasks}
+  \centering
+  \renewcommand{\tabularxcolumn}{m} % we want center vertical alignment
+  \begin{tabularx}{\textwidth}{l >{\raggedright}X}
+    \toprule
+    \textbf{Workshop} & \textbf{Task}
+    \tabularnewline \midrule
+    SemEval-2013
+    &
+    Task 2: Sentiment Analysis in Twitter (\cite{SemEval2013Task2})
+    \tabularnewline \hline
+    SemEval-2014
+    &
+    Task 9: Sentiment Analysis in Twitter (\cite{SemEval2014Task9})
+    \tabularnewline \hline
+    SemEval-2015
+    &
+    Task 10: Sentiment Analysis in Twitter (\cite{SemEval2015Task10})\\
+    Task 11: Sentiment Analysis of Figurative Language in Twitter
+    (\cite{SemEval2015Task11})
+    \tabularnewline \hline
+    SemEval-2016
+    &
+    Task 4: Sentiment Analysis in Twitter (\cite{SemEval2016Task4})\\
+    Task 6: Detecting Stance in Tweets (\cite{SemEval2016Task6})
+    \tabularnewline \hline
+    SemEval-2017
+    &
+    Task 4: Sentiment Analysis in Twitter (\cite{SemEval2017Task4})\\
+    Task 6: \#HashtagWars: Learning a Sense of Humor (\cite{SemEval2017Task6})
+    \tabularnewline \hline
+    SemEval-2018
+    &
+    Task 1: Affect in Tweets (\cite{SemEval2018Task1})\\
+    Task 3: Irony Detection in English Tweets (\cite{SemEval2018Task3})
+    \tabularnewline \hline
+    SemEval-2019
+    &
+    Task 5: HatEval: Multilingual Detection of Hate Speech Against Immigrants
+    and Women in Twitter (\cite{SemEval2019Task5})\\
+    Task 6: OffensEval: Identifying and Categorizing Offensive Language in
+    Social Media(\cite{SemEval2019Task6})
+    \tabularnewline \bottomrule
+  \end{tabularx}
+\end{table}

@@ -1,0 +1,56 @@
+\documentclass[english,a4paper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{graphicx}  %%% for including graphics
+\graphicspath{{./images/}}
+\usepackage{url}       %%% for including URLs
+\usepackage{times}
+\usepackage[margin=25mm]{geometry}
+
+%%% custom packages
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage[autostyle=true]{csquotes}
+\usepackage{xpatch}
+%%% custom packages
+
+\title{Sentiment Analysis of Soldiers' Tweets - Comparison with civilians (TBC)}
+\date{\today}
+
+\author{
+  Sumit Mukhija, Rachit Rastogi,\\
+  Chao Chen, Chen Wang, Chetan Prasad\\
+  School of Computer Science and Statistics, Trinity College Dublin\\
+  \texttt{\{mukhijas, rrastogi, chenc1, wangc5, cprasad\}@tcd.ie}
+}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+\begin{abstract}
+  The concern to veterans' mental health should be made. Existing works show that
+  mental health changes caused by wars can be reflected in linguistic features of
+  the social media texts. In order to detect and compare those changes we collected
+  data from 20 soldiers' tweets and examined them with a list of positive and negative
+  adjectives to identify the polarity and do a comparison with normal users'
+  tweets. The total counts of tweets vary from 57 to 39,000. We identified the
+  difference between normal users and soldiers and we did a close look to the
+  result with discussion. \\
+  \textbf{Keywords:}
+\end{abstract}
+
+\input{introduction/introduction.tex}
+\input{background/background.tex}
+\input{experiment/experiment.tex}
+\input{discussion/discussion.tex}
+\input{conclusion/conclusion.tex}
+\input{futurework/futurework.tex}
+
+\bibliographystyle{chicago}
+\bibliography{ref}
+
+\end{document}
