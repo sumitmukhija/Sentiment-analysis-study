@@ -46,4 +46,56 @@ SentiWordNet is used for sentiment polarity analysis and NRC Word-Emotion Associ
 
 Once the POS tags of words are generated. We search the synonyms of words in SentiWordNet to determine the scoring for positiveness, negativeness and objectiveness by caculating means among synonyms. Meanwhile EmoLex is used to perform emotion analysis on 10 emotions. Scores of one tweet are generated caculating the means of the scores of all the words after preprocessing.
 
-The result data is shown in Tab.\ref{}. We also counted adjectives with top ?? frequencies in soldiers and civilians corpora, for we think that adjectives have more subjective meanings than verbs, nouns, etc. The list of adjectives are shown in Tab.\ref{}.
+The result data applying SentiWordNet are shown in Tab.\ref{table:sentiResult}, and result produced by using EmoLex are shown in Tab.\ref{table:emolexResult}.
+
+We also counted adjectives with top ?? frequencies in soldiers and civilians corpora, for we think that adjectives have more subjective meanings than verbs, nouns, etc. The list of adjectives are shown in Tab.\ref{}.
+
+
+\begin{table}[h]
+  \caption{Results of sentiment analysis using SentiWordNet}
+  \label{table:sentiResult}
+  \centering
+  \renewcommand{\tabularxcolumn}{m} % we want center vertical alignment
+  \begin{tabularx}{\textwidth}{l l | l l l l l}
+    \toprule
+              &         & \textbf{Valid Cnt.} & \textbf{Valid Len.}    & \textbf{Possitive.}    & \textbf{Negative.}     & \textbf{Objective.}
+    \tabularnewline \midrule
+    Soldiers  & Mean
+              & 3179.54 & 16.450              & 257.58$\times 10^{-4}$ & 196.10$\times 10^{-4}$ & 3371.7$\times 10^{-4}$
+    \tabularnewline
+    n=208     & Std.
+              & 5041.70 & 6.6427              & 78.586$\times 10^{-4}$ & 64.386$\times 10^{-4}$ & 750.49$\times 10^{-4}$
+    \tabularnewline \hline \hline
+    Civilians & Mean
+              & 2143.66 & 14.293              & 262.65$\times 10^{-4}$ & 177.39$\times 10^{-4}$ & 3530.5$\times 10^{-4}$
+    \tabularnewline
+    n=301     & Std.
+              & 5286.12 & 5.2067              & 87.432$\times 10^{-4}$ & 64.786$\times 10^{-4}$ & 720.09$\times 10^{-4}$
+    \tabularnewline \bottomrule
+  \end{tabularx}
+\end{table}
+
+
+\begin{table}[h]
+  \caption{Results of emotion analysis using EmoLex}
+  \label{table:emolexResult}
+  \centering
+  \renewcommand{\tabularxcolumn}{m} % we want center vertical alignment
+  \begin{tabularx}{\textwidth}{l l | l l l l l}
+    \toprule
+              &         & \textbf{Valid Cnt.} & \textbf{Valid Len.}    & \textbf{Possitive.}    & \textbf{Negative.}     & \textbf{Objective.}
+    \tabularnewline \midrule
+    Soldiers  & Mean
+              & 3179.54 & 16.450              & 257.58$\times 10^{-4}$ & 196.10$\times 10^{-4}$ & 3371.7$\times 10^{-4}$
+    \tabularnewline
+    n=208     & Std.
+              & 5041.70 & 6.6427              & 78.586$\times 10^{-4}$ & 64.386$\times 10^{-4}$ & 750.49$\times 10^{-4}$
+    \tabularnewline \hline \hline
+    Civilians & Mean
+              & 2143.66 & 14.293              & 262.65$\times 10^{-4}$ & 177.39$\times 10^{-4}$ & 3530.5$\times 10^{-4}$
+    \tabularnewline
+    n=301     & Std.
+              & 5286.12 & 5.2067              & 87.432$\times 10^{-4}$ & 64.786$\times 10^{-4}$ & 720.09$\times 10^{-4}$
+    \tabularnewline \bottomrule
+  \end{tabularx}
+\end{table}
