@@ -1,19 +1,13 @@
-\section{Experiment and Results}
+\section{Experiments and Results}
+
+\subsection{Data Collection}
 
 \subsection{Experiment Setup}
 
-\subsubsection{Data Collection}
-
 \subsubsection{TBC}
 
-\subsubsection{Sentiment \& Emotion Analysis}
-
-Tweets are filtered and only tweets with texts originate from uses themselve remain, which means the likes and directly retweets are filtered.
-
-The corpora are then preprocessed to remove elements mentioned in Table.\ref{table:elementsRemoved}:
-
 \begin{table}[h]
-  \caption{Elements to be removed when proprocessing}
+  \caption{Elements to handle when prepocessing tweets}
   \label{table:elementsRemoved}
   \centering
   \renewcommand{\tabularxcolumn}{m} % we want center vertical alignment
@@ -32,23 +26,29 @@ The corpora are then preprocessed to remove elements mentioned in Table.\ref{tab
                      & \#botRise         & Numbers             & 1994 233
     \tabularnewline \hline
     Twitter reserved words
-                     & RT via            &
-                     &
+                     & RT via            & Stopwords
+                     & it I as
     \tabularnewline \bottomrule
   \end{tabularx}
 \end{table}
 
-When we remove numbers we try to remain the years (from 1900 to 2100).
-We try not to remove punctuations and stopwords because we need to do Part-of-Speech (POS) tagging after tokenizing. Both tokenizing and POS tagging is done by NLTK \citep{NLTK}.
+\subsubsection{Sentiment \& Emotion Analysis}
+
+Tweets are filtered and only tweets with texts originate from uses themselve remain, which means the likes and directly retweets are filtered.
+
+The corpora are then preprocessed to remove elements mentioned in Table.\ref{table:elementsRemoved}.
+
+When we remove numbers we try to remain the years (from 1900 to 2100), and we try not to remove punctuations and stopwords because we need to do Part-of-Speech (POS) tagging after tokenizing. Both tokenizing and POS tagging is done by NLTK \citep{NLTK}.
 
 We use lexicons to score the words in our corpus.
-SentiWordNet is used for sentiment polarity analysis and NRC Word-Emotion Association Lexicon (EmoLex) \citep{Mohammad13} is for emotion analysis.
+SentiWordNet is used for sentiment polarity analysis and NRC Word-Emotion Association Lexicon (EmoLex) \citep{Mohammad13} based on the model of Plutchik’s wheel of emotions \citep{plutchik2003emotions} (with additional Positiveness and Negativeness) is for emotion analysis.
 
 Once the POS tags of words are generated. We search the synonyms of words in SentiWordNet to determine the scoring for positiveness, negativeness and objectiveness by caculating means among synonyms. Meanwhile EmoLex is used to perform emotion analysis on 10 emotions. Scores of one tweet are generated caculating the means of the scores of all the words after preprocessing.
 
-The result data applying SentiWordNet are shown in Table.\ref{table:sentiResult}, and result produced by using EmoLex are shown in Table.\ref{table:emolexResult}.
+The result data applying SentiWordNet are shown in Table.\ref{table:sentiResult}.
+Result produced by using EmoLex are shown in Table.\ref{table:emolexResult}.
 
-We also counted adjectives with top 100 frequencies in soldiers and civilians corpora, for we think that adjectives have more subjective meanings than verbs, nouns, etc. We discovered some words with more "political" meanings appear to be different in the lists of two corpora. The list of adjectives are shown in Table.\ref{table:wordsComparison}.
+We also counted adjectives with top 100 frequencies in soldiers and civilians corpora, for we think that adjectives have more subjective meanings than verbs, nouns, etc. We discovered some words with more \enquote{political} meanings appear to be different in the lists of two corpora. The list of adjectives are shown in Table.\ref{table:wordsComparison}.
 
 
 \begin{table}[h]
@@ -58,19 +58,15 @@ We also counted adjectives with top 100 frequencies in soldiers and civilians co
   \renewcommand{\tabularxcolumn}{m} % we want center vertical alignment
   \begin{tabularx}{\textwidth}{l l | l l l l l}
     \toprule
-              &          & \textbf{Valid Cnt.} & \textbf{Valid Len.}    & \textbf{Possitive.}    & \textbf{Negative.}     & \textbf{Objective.}
+              &      & \textbf{Valid Cnt.} & \textbf{Valid Len.} & \textbf{Possitive.}    & \textbf{Negative}      & \textbf{Objective.}
     \tabularnewline \midrule
-    Soldiers  & Mean
-              & 3179.54* & 16.450              & 257.58$\times 10^{-4}$ & 196.10$\times 10^{-4}$ & 3371.7$\times 10^{-4}$
+    Soldiers  & Mean & 3179.54*            & 16.450              & 257.58$\times 10^{-4}$ & 196.10$\times 10^{-4}$ & 3371.7$\times 10^{-4}$
     \tabularnewline
-    n=208     & Std.
-              & 5041.70  & 6.6427              & 78.586$\times 10^{-4}$ & 64.386$\times 10^{-4}$ & 750.49$\times 10^{-4}$
+    n=208     & Std. & 5041.70             & 6.6427              & 78.586$\times 10^{-4}$ & 64.386$\times 10^{-4}$ & 750.49$\times 10^{-4}$
     \tabularnewline \hline \hline
-    Civilians & Mean
-              & 2143.66* & 14.293              & 262.65$\times 10^{-4}$ & 177.39$\times 10^{-4}$ & 3530.5$\times 10^{-4}$
+    Civilians & Mean & 2143.66*            & 14.293              & 262.65$\times 10^{-4}$ & 177.39$\times 10^{-4}$ & 3530.5$\times 10^{-4}$
     \tabularnewline
-    n=280     & Std.
-              & 5286.12  & 5.2067              & 87.432$\times 10^{-4}$ & 64.786$\times 10^{-4}$ & 720.09$\times 10^{-4}$
+    n=280     & Std. & 5286.12             & 5.2067              & 87.432$\times 10^{-4}$ & 64.786$\times 10^{-4}$ & 720.09$\times 10^{-4}$
     \tabularnewline \bottomrule
   \end{tabularx}
 \end{table}
@@ -124,43 +120,29 @@ We also counted adjectives with top 100 frequencies in soldiers and civilians co
 
 
 \begin{table}[h]
-  \caption{List of word rankings and frequencies}
+  \caption{List of \enquote{political} adjectives with rankings and frequencies}
   \label{table:wordsComparison}
   \centering
   \renewcommand{\tabularxcolumn}{m} % we want center vertical alignment
-  \begin{tabularx}{\textwidth}{l | l | l || l | l | l}
+  \begin{tabularx}{0.8\textwidth}{l | l | l || l | l | l}
     \toprule
     \textbf{Word} & \textbf{Soldiers} & \textbf{Civilians} & \textbf{Word} & \textbf{Soldiers} & \textbf{Civilians}
     \tabularnewline \midrule
-    military
-                  &
-    4.46 (17th)   & -                 & dead               & 1.20 (77th)   & -
+    military      & 4.46 (17th)       & -                  & dead          & 1.20 (77th)       & -
     \tabularnewline \hline
-    american
-                  & 3.85 (24th)       & 1.20 (79th)        & human         & 1.17 (80th)       & 1.01 (91st)
+    american      & 3.85 (24th)       & 1.20 (79th)        & human         & 1.17 (80th)       & 1.01 (91st)
     \tabularnewline \hline
-    political
-                  & 2.12 (40th)       & -                  & local         & 1.16 (81st)       & 1.26 (72nd)
+    political     & 2.12 (40th)       & -                  & local         & 1.16 (81st)       & 1.26 (72nd)
     \tabularnewline \hline
-    medical
-                  & 1.75 (47th)       & -                  & democratic
-                  & 1.15 (83rd)       & -
+    medical       & 1.75 (47th)       & -                  & democratic    & 1.15 (83rd)       & -
     \tabularnewline \hline
-    public
-                  & 1.56 (51st)       & 1.32 (68th)        & illegal
-                  & 1.14* (85th)      & -
+    public        & 1.56 (51st)       & 1.32 (68th)        & illegal       & 1.14* (85th)      & -
     \tabularnewline \hline
-    social
-                  & 1.44 (60th)       & 1.78 (51st)        & foreign
-                  & 1.14* (85th)      & -
+    social        & 1.44 (60th)       & 1.78 (51st)        & foreign       & 1.14* (85th)      & -
     \tabularnewline \hline
-    sick
-                  & 1.37 (64th)       & -                  & poor
-                  & 1.10 (90th)       & -
+    sick          & 1.37 (64th)       & -                  & poor          & 1.10 (90th)       & -
     \tabularnewline \hline
-    personal
-                  & 1.31 (71st)       & 1.21 (78th)        & republican
-                  & 1.07 (93rd)       & -
+    personal      & 1.31 (71st)       & 1.21 (78th)        & republican    & 1.07 (93rd)       & -
     \tabularnewline \bottomrule
   \end{tabularx}
 \end{table}
