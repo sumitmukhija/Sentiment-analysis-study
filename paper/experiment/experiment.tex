@@ -48,7 +48,7 @@ Once the POS tags of words are generated. We search the synonyms of words in Sen
 
 The result data applying SentiWordNet are shown in Table.\ref{table:sentiResult}, and result produced by using EmoLex are shown in Table.\ref{table:emolexResult}.
 
-We also counted adjectives with top ?? frequencies in soldiers and civilians corpora, for we think that adjectives have more subjective meanings than verbs, nouns, etc. The list of adjectives are shown in Table.\ref{}.
+We also counted adjectives with top 100 frequencies in soldiers and civilians corpora, for we think that adjectives have more subjective meanings than verbs, nouns, etc. We discovered some words with more "political" meanings appear to be different in the lists of two corpora. The list of adjectives are shown in Table.\ref{table:wordsComparison}.
 
 
 \begin{table}[h]
@@ -85,39 +85,82 @@ We also counted adjectives with top ?? frequencies in soldiers and civilians cor
     \toprule
     Soldiers: n=208
     \tabularnewline \midrule
-     & \textbf{Trust}   & \textbf{Anger} & \textbf{Surprise}   & \textbf{Joy}     & \textbf{Positive.}
+     & \textbf{Trust}+   & \textbf{Anger}+ & \textbf{Surprise}    & \textbf{Joy}      & \textbf{Positive.}
     \tabularnewline \midrule
     Mean $\times 10^{-4}$
-     & 422.84           & 167.17         & 149.99              & 312.51           & 637.50
+     & 422.84            & 167.17          & 149.99               & 312.51            & 637.50
     \tabularnewline
     Std. $\times 10^{-4}$
-     & 154.94           & 83.143         & 62.113              & 151.64           & 213.55
+     & 154.94            & 83.143          & 62.113               & 151.64            & 213.55
     \tabularnewline \midrule
-     & \textbf{Disgust} & \textbf{Fear}  & \textbf{Anticipat.} & \textbf{Sadness} & \textbf{Negative.}
+     & \textbf{Disgust}+ & \textbf{Fear}+  & \textbf{Anticipat.}  & \textbf{Sadness}+ & \textbf{Negative.}+
     \tabularnewline \midrule
     Mean$\times 10^{-4}$
-     & 122.09           & 193.43         & 295.57              & 149.34           & 339.61
+     & 122.09            & 193.43          & 295.57               & 149.34            & 339.61
     \tabularnewline
     Std.$\times 10^{-4}$
-     & 74.795           & 89.380         & 112.40              & 66.053           & 148.79
+     & 74.795            & 89.380          & 112.40               & 66.053            & 148.79
     \tabularnewline \hline \hline
     Civilians: n=280
     \tabularnewline \midrule
-     & \textbf{Trust}   & \textbf{Anger} & \textbf{Surprise}   & \textbf{Joy}     & \textbf{Positive.}
+     & \textbf{Trust}    & \textbf{Anger}  & \textbf{Surprise}+   & \textbf{Joy}+     & \textbf{Positive.}+
     \tabularnewline \midrule
     Mean $\times 10^{-4}$
-     & 399.72           & 132.03         & 163.72              & 349.44           & 650.63
+     & 399.72            & 132.03          & 163.72               & 349.44            & 650.63
     \tabularnewline
     Std.$\times 10^{-4}$
-     & 170.45           & 80.189         & 108.13              & 224.58           & 269.03
+     & 170.45            & 80.189          & 108.13               & 224.58            & 269.03
     \tabularnewline \midrule
-     & \textbf{Disgust} & \textbf{Fear}  & \textbf{Anticipat.} & \textbf{Sadness} & \textbf{Negative.}
+     & \textbf{Disgust}  & \textbf{Fear}   & \textbf{Anticipat.}+ & \textbf{Sadness}  & \textbf{Negative.}
     \tabularnewline \midrule
     Mean$\times 10^{-4}$
-     & 98.934           & 163.78         & 330.09              & 131.82           & 283.00
+     & 98.934            & 163.78          & 330.09               & 131.82            & 283.00
     \tabularnewline
     Std.$\times 10^{-4}$
-     & 82.884           & 108.23         & 152.86              & 87.180           & 160.08
+     & 82.884            & 108.23          & 152.86               & 87.180            & 160.08
+    \tabularnewline \bottomrule
+  \end{tabularx}
+\end{table}
+
+
+\begin{table}[h]
+  \caption{List of word rankings and frequencies}
+  \label{table:wordsComparison}
+  \centering
+  \renewcommand{\tabularxcolumn}{m} % we want center vertical alignment
+  \begin{tabularx}{\textwidth}{l | l | l || l | l | l}
+    \toprule
+    \textbf{Word} & \textbf{Soldiers} & \textbf{Civilians} & \textbf{Word} & \textbf{Soldiers} & \textbf{Civilians}
+    \tabularnewline \midrule
+    military
+                  &
+    4861 (17th)   & dead              &
+    \tabularnewline \hline
+    american
+                  & 4193 (24th)       & human              & a b c
+    \tabularnewline \hline
+    political
+                  & 2305 (40th)       & local              & 1994 233
+    \tabularnewline \hline
+    medical
+                  & 1914 (47th)       & democratic
+                  &
+    \tabularnewline \hline
+    public
+                  & RT via            & illegal
+                  &
+    \tabularnewline \hline
+    social
+                  & RT via            & foreign
+                  &
+    \tabularnewline \hline
+    sick
+                  & RT via            & poor
+                  &
+    \tabularnewline \hline
+    personal
+                  & RT via            & republican
+                  &
     \tabularnewline \bottomrule
   \end{tabularx}
 \end{table}
