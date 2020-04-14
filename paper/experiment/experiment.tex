@@ -10,34 +10,34 @@ Numerous strategies considered in an attempt to procure data that belonged to th
 
 On account of being a platform that is widely used by a large number of service-men and the civilians, Twitter was selected as the platform to extract data. Several verified Twitter pages linked to the US Army were manually analysed and a few profiles of the veterans were used as an initial set. But, we finally used the data from a verified page with the name IAVA. This is said to be the most significant association speaking to the new age of vets specifically from The United States. It was ensured that veterans belonging to all the genders are selected. There was also no division on the number of Tweets. The final set had Twitter profiles with as few as 57 tweets and as many as 65,000 tweets. The succeeding veterans were picked by scouring through the followers of the veterans in the original set based on some keywords like the army, us-army, military in their bio.
 
-A collection from 208 veterans profile was performed which was used for our final set of experiments. It helped us to have a dataset set of 6,61,342 tweets that was used in our analysis.
+A collection from 208 veterans profile was performed which was used for our final set of experiments. It helped us to have a dataset set of 6,61,342 tweets that were used in our analysis.
 
-Similarly, for collection the data of civilians, we opted to chooses pages such as Netflix, USA official page, The US open and more. Here also the same guidelines where followed as in the case of finding the profiles of vets, but the only difference was that, here we where selection profiles based on keywords not similar to army, us-army, military in their bio. A final list of 280 civilians usernames was selected with variations in age, sex, and the number of tweets. This ultimately added 6,00,173 tweets by the general civilians and was used in our processing.
+Similarly, for collection the data of civilians, we opted to chooses pages such as Netflix, USA official page, The US open and more. Here also the same guidelines were followed as in the case of finding the profiles of vets, but the only difference was that, here we were selection profiles based on keywords not similar to “army”, “us-army”, “military” in their bio. A final list of 280 civilians usernames was selected with variations in age, sex, and the number of tweets. This ultimately added 6,00,173 tweets by the general civilians and was used in our processing.
 
-Once we had all the data that is from both the veterans and the civilians, we merged all the data to two csv file so that is easier to process the data that we have extracted. This merged data for both where further used in our pre-processing.
+Once we had all the data that is from both the veterans and the civilians, we merged all the data to two CSV file so that is easier to process the data that we have extracted. This merged data for both were further used in our pre-processing.
 
 \subsection{Data Process and Analysis}
 
 \subsubsection{Lexical \& Non-Lexical Feature Summarization}
 
-Once the data is gathered and saved in the CSV format, we then start pre-processing the gathered data after which we do our analysis where we come up with a set of results to prove our hypothesis. Sentiment analysis can be broadly categorized into two kinds, based on the type of output the analysis generates. Under our processing, we are trying to label text to be under \enquote{curses} - or bad words. Take into account the tweets of all the selected veterans from our data and then run an analysis to gather information from there. Not only this, information such as the total counts of retweets, replies, likes, emojis, URLs, mentions and total words are calculated. Special elements in tweets can be referred in Table.\ref{table:elementsRemoved}. This is one of the analysis that we are dong from the collected data.
+Once the data is gathered and saved in the CSV format, we then start pre-processing the gathered data after which we do our analysis where we come up with a set of results to prove our hypothesis. Sentiment analysis can be broadly categorized into two kinds, based on the type of output the analysis generates. Under our processing, we are trying to label text to be under \enquote{curses} - or bad words. Take into account the tweets of all the selected veterans from our data and then run an analysis to gather information from there. Not only this, but information such as the total counts of retweets, replies, likes, emojis, URLs, mentions and total words are calculated. Special elements in tweets can be referred to Table.\ref{table:elementsRemoved}. This is one of the analyses that we are dong from the collected data.
 
 This identical analysis is then run on tweets by ordinary people or civilians data as well. Finally, we will categorise the difference in the count of \enquote{curse} words to check the two sets of results which will ultimately help us identify an individual being in the state of depression.
 
 The initial step we took under pre-processing our data were:
 
 \begin{itemize}
-  \item Only selecting tweets that where in English Language.
-  \item Applying rule to only select textual data.
+  \item Only selecting tweets that were in English.
+  \item Applying the rule to only select textual data.
 \end{itemize}
 
 It was then followed by removal of: (1) Retweets numbers; (2) Tokenizing.
 
-Furthermore, the emojis where given a textual form so that we can get information from that part as well. This is because, in this everchanging world the use of emojis has increases. This converted emojis was considered as text and was used in the count of “curses”.
+Furthermore, the emojis were given a textual form so that we can get information from that part as well. This is because in this everchanging world the use of emojis has increased. This converted emojis was considered as text and was used in the count of “curses”.
 
 The step to remove punctuation followed by Tokenizing which is the way toward separating a goliath string into a rundown of words. NLTK \citep{NLTK}, a python library is used for this process. Stopwords, where pull-out, as they do not change any meaning of a sentence hence, can be ignored. Tuples were generated with each word and part of speech. Finally, the counts were extracted from the tweets of both the veterans and the civilians. And was then was compared with each other.
 
-A abstract of the process is illustrated in Figure.\ref{fig:exp1}.
+An abstract of the process is illustrated in Figure.\ref{fig:exp1}.
 
 \begin{figure}[h]
   \centering
@@ -72,7 +72,7 @@ A abstract of the process is illustrated in Figure.\ref{fig:exp1}.
   \end{tabularx}
 \end{table}
 
-Hence, we compared the count of the “curses” to come up with a result that displayed whether the veterans were targeted to depression and suicidal. Here is the data that was collected from the the tweets:
+Hence, we compared the count of the “curses” to come up with a result that displayed whether the veterans were targeted to depression and suicidal. Here is the data that was collected from the tweets:
 
 \begin{itemize}
   \item soldier stats: {'retweets': 869272, 'replies': 333204, 'likes': 2735134, 'emojis': 159583, 'urls': 250026, 'mentions': 226533, 'words': 51528493, 'curses': 28249, 'tweets': 661342}
@@ -81,9 +81,9 @@ Hence, we compared the count of the “curses” to come up with a result that d
 
 \subsubsection{Sentiment \& Emotion Analysis}
 
-Tweets are filtered and only tweets with texts originate from uses themselve remain, which means the likes and directly retweets are filtered.
+Tweets are filtered and only tweets with texts originate from uses themselves remain, which means the likes and directly retweets are filtered.
 
-The corpora are then preprocessed to remove elements mentioned in Table.\ref{table:elementsRemoved}.
+The corpora are then pre-processed to remove elements mentioned in Table.\ref{table:elementsRemoved}.
 
 To notice that, when we remove numbers we try to remain the years (from 1900 to 2100), and we try not to remove punctuations and stopwords because we need to do Part-of-Speech (POS) tagging after tokenizing. Both tokenizing and POS tagging is done by NLTK \citep{NLTK}.
 
@@ -96,12 +96,12 @@ We use lexicons to score the words in our corpora. SentiWordNet is used for sent
   \label{fig:wheel}
 \end{figure}
 
-Once the POS tags of words are generated. We search the synonyms of words in SentiWordNet to determine the scoring for positiveness, negativeness and objectiveness by caculating means among synonyms. Meanwhile EmoLex is used to perform emotion analysis on 10 emotions. Scores of one tweet are generated caculating the means of the scores of all the words after preprocessing.
+Once the POS tags of words are generated. We search the synonyms of words in SentiWordNet to determine the scoring for positiveness, negativeness and objectiveness by calculating means among synonyms. Meanwhile, EmoLex is used to perform emotion analysis on 10 emotions. Scores of one tweet are generated calculating the means of the scores of all the words after preprocessing.
 
 The result data applying SentiWordNet are shown in Table.\ref{table:sentiResult}.
-Result produced by using EmoLex are shown in Table.\ref{table:emolexResult}.
+The result produced by using EmoLex are shown in Table.\ref{table:emolexResult}.
 
-We also counted adjectives with top 100 frequencies in soldiers and civilians corpora, for we think that adjectives have more subjective meanings than verbs, nouns, etc. We discovered some words with more \enquote{political} meanings appear to be different in the lists of two corpora. The list of adjectives are shown in Table.\ref{table:wordsComparison}.
+We also counted adjectives with top 100 frequencies in soldiers and civilians corpora, for we think that adjectives have more subjective meanings than verbs, nouns, etc. We discovered some words with more \enquote{political} meanings appear to be different in the lists of two corpora. The list of adjectives is shown in Table.\ref{table:wordsComparison}.
 
 
 \begin{table}[h]
