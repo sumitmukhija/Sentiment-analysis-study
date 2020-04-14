@@ -1,43 +1,23 @@
 \section{Background}
 
-\subsection{Previous Work on Mental Health of Veterans}
+\subsection{Previous Work on Mental Health of Soldiers}
 
-In order to make a medical diagnosis for patients, psychologists often use the
-linguistic content and expression of patients to judge their emotional changes
-and mental state according to previous research in psychology and linguistic.
-The clinical diagnosis efficiency has been greatly improved because of the
-progress of science and technology, especially in computational linguistics.
-In addition, the widespread of social media such as Facebook, Twitter and
-Instagram, has provided mental researchers with a large scale of data.
-Therefore, they could easily use the collected dataset and machine learning
-techniques for sentiment analysis. Linguistic contents which users posted on
-social media have been proved to be the basis for evaluating a person's mental
-state \citep{becauseIwastoldsomuch} \citep{GUNTUKU201743}. However,
-the majority of research targets are normal people.
+In order to make medical diagnosis for patients, psychologists often use the linguistic content and expression of patients to judge their emotional changes and mental state according to previous research in psychology and linguistic. The clinical diagnosis efficiency has been greatly improved because of the progress of science and technology, especially in computational linguistics. In addition, the wide spread of social media such as Facebook, Twitter and Instagram, has provided mental researchers with a large scale of data. Therefore, they could easily use the collected dataset and machine learning techniques for sentiment analysis.
 
-In this paper, veterans will be regarded as research targets. Westgate in
-\citep{doi:10.1176/appi.ps.201400283} has come up with a method about the evaluation
-of veterans' suicide risk. This paper will concentrate on analyzing
-the impact of the war on veterans' mental state through the Twitters posted by
-themselves before and after the war instead of focusing on the prediction of
-the suicide risk of veterans. In addition, the comparison with the twitters
-released by ordinary users will be presented. Finally, comprehensive
-sentiment analysis of veterans will be summarized.
+Linguistic contents which users posted on social media have been proved to be the basis for evaluating a person's mental state \citep{becauseIwastoldsomuch} \citep{GUNTUKU201743}. However, the majority of research targets are civilians. In this paper, veterans and civilians will be regarded as research targets. Westgate in \citep{doi:10.1176/appi.ps.201400283} has come up with a method about evaluation of Veterans’ Suicide Risk. However, this paper will concentrate on analyzing the impact of the war on veterans' mental state through comparing the tweets posted by soldiers with the twitters released by civilians. In addition, a comprehensive sentiment analysis of veterans will be summarized.
 
 \subsection{Sentiment and Emotion Analysis on Social Media}
 
-Emotion and sentiment are treated as different concepts in psychology. The
-definition of \enquote{emotion} is a complex psychological state, which plays an
-important role in operating motivators. For \enquote{sentiment}, it is created based on
-emotion to refer to a mental attitude. A survey providing more information can
-be referred to by \citep{yue2018survey}.
+Sentiment analysis has been applied to various fields, such as the research about consumer behavior on product marketing and the analysis for political voting. The advances in Natural Language Processing and linguistic research have led to the development of different methods of sentiment analysis.
 
-In sentiment analysis, the typical task is finding the polarities of the given
-texts. The tests are probably positive, negative or neutral. The approach is
-often counting the word using and produce scores due to the lexicons.
+Nowadays, people tend to use social media such as Twitter to post tweets and express their opinions and emotions. Most of the tweets generated from Twitter accounts are public by default and easy to obtain online. Also, the tweets are short(limited to 280 characters) and often appears with spelling mistakes and slangs. A tweet often comes with other features like spreading tweets(retweet) from other accounts. These mentioned above make the tweets become a good channel to explore sentiment analysis.
 
-There are commonly two approaches - analysing users' social activities and calculate linguistic features of user-generated texts. The sentiment analysis mainly focuses on short texts(tweets) generated from Twitter accounts, since most of the data is public by default and easy to obtain online. Also, the tweets are short(limited to 280 characters) and often appears with spelling mistakes and slangs. A tweet often comes with other features like spreading tweets(retweet) from other accounts. These methods mentioned above make the analysis on tweets a paradigm to explore.
+Generally speaking, the common approaches for sentiment analysis consist two parts, including the machine learning techniques based and the lexicon based. Analyzing users’ social activities and calculating linguistic features of user-generated texts are the core for the machine learning algorithm. Compared with machine learning based method, the lexicon based method is more direct and straightforward. In sentiment analysis, the typical task is finding the polarities of the given texts. The tests are probably positive, negative or neutral. Lexicon based method could recognize and analyze the words about sentiment and other emoticons and hashtags which are associated with sentiment.
 
-SentiWordNet makes use of Opinion Mining, which is understanding the opinion of text more than the topic \citep{esuli2006sentiwordnet}. Sentiwordnet is a lexical resource which scores a text on three premises object, positivity and negativity. Synsets are the building blocks of the Sentiwordnet, they form a wordnet and the wordnet is associated with the three scores. The three scores help determine how objective, positive and negative the text is. Sentiwordnet is an open-source software which is free to use and helps in extracting the sentiment of the text. The latest version of this is SentiWordNet 3.0 \citep{baccianella2010sentiwordnet} which is being used in this project. The latest version of Sentiwordnet uses an updated Wordnet compared to the older version. The algorithm used is updated to include random walk step to refine the scores. There is also considerable improvement in the accuracy of Sentiwordnet 3.0. It is used in numerous projects for the analysis of reviews and other related matters to understand whether the text is subjective or objective.
+Therefore, the sentiment lexicons are adopted for matching the words from tweets, thus analyzing and determining the polarities of the corpus.
 
-\cite{montejo2012random} has defined a work that uses SentiWordNet on Twitter data to identify the polarity of sentiment of the users. They extract weighted vector and use it in the SentiWordNet to determine the polarity making it an unsupervisedsolution. We are going to be using SentiWordNet on tweets in order to understand the differences between the tweets of a soldier and that of a normal user.
+\cite{azizan2019lexicon} performed sentiment analysis on Twitter data about movie review tweets using R and lexicon-based method.They found that lexicon-based method is more effective than machine learning based method under the same calculation cost. \cite{8073512} used a dictionary based method and analyzed the results at aspect level and document level to predict public’s sentiment using tweets about product review.
+
+SentiWordNet and SenticNet, as open lexicons resources, have been developed in recent years. Sentiwordnet is a lexical resource which scores a text on three premises object, positivity and negativity. It is an open-source software which is free to use and helps in extracting the sentiment of the text. Due to the high accuracy, the SentiWordNet 3.0 \citep{baccianella2010sentiwordnet} will be used as lexicons in this paper.
+
+\cite{montejo2012random} has defined a work that uses SentiWordNet on Twitter data to identify the polarity of sentiment of the users. They extract weighted vector and use it in the SentiWordNet to determine the polarity making it an unsupervisedsolution. We will use SentiWordNet on tweets in order to find the differences between the tweets of a soldier and that of a normal user.
