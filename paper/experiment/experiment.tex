@@ -1,8 +1,10 @@
 \section{Experiments and Results}
 
+We believe the tweets originate from soldiers and veterans can have differences with civilians on both lexical and non-lexical aspects. The experiments are divied into two parts. We first summarized the features on the large aspects to compare the difference between corpora from soldiers/veterans and civilians. Then we calculated sentiment and emotion metrics based on lexicons.
+
 \subsection{Data Collection}
 
-We use TWINT by Poldi 2017 as our data collection tool. All the data can be accessed publicly so there are no ethical considerations.
+We use TWINT \citep{twint} as our data collection tool. All the data can be accessed publicly so there are no ethical considerations.
 
 Numerous strategies considered in an attempt to procure data that belonged to the war veterans. Transcripts of podcasts and YouTube videos involving accounts of wars from the veterans, books that were written by the ex-servicemen, the public dataset that had diaries, and letters of first world war soldiers were a few sources. However, as an inference, all of these sources were highly specific to the negative aspects and impacts of war and eventually would add bias to the data.
 
@@ -18,7 +20,7 @@ Once we had all the data that is from both the veterans and the civilians, we me
 
 \subsubsection{Lexical \& Non-Lexical Feature Summarization}
 
-Once the data is gathered and saved in the CSV format, we then start pre-processing the gathered data after which we do our analysis where we come up with a set of results to prove our hypothesis. Sentiment analysis can be broadly categorized into two kinds, based on the type of output the analysis generates. Under our processing, we are trying to label text to be under \enquote{curses} – or bad words. Take into account the tweets of all the selected veterans from our data and then run an analysis to gather information from there. Not only this, information such as the total counts of retweets, replies, likes, emojis, URLs, mentions and total words are calculated. Special elements in tweets can be referred in Table.\ref{table:elementsRemoved}. This is one of the analysis that we are dong from the collected data.
+Once the data is gathered and saved in the CSV format, we then start pre-processing the gathered data after which we do our analysis where we come up with a set of results to prove our hypothesis. Sentiment analysis can be broadly categorized into two kinds, based on the type of output the analysis generates. Under our processing, we are trying to label text to be under \enquote{curses} - or bad words. Take into account the tweets of all the selected veterans from our data and then run an analysis to gather information from there. Not only this, information such as the total counts of retweets, replies, likes, emojis, URLs, mentions and total words are calculated. Special elements in tweets can be referred in Table.\ref{table:elementsRemoved}. This is one of the analysis that we are dong from the collected data.
 
 This identical analysis is then run on tweets by ordinary people or civilians data as well. Finally, we will categorise the difference in the count of \enquote{curse} words to check the two sets of results which will ultimately help us identify an individual being in the state of depression.
 
@@ -31,7 +33,7 @@ The initial step we took under pre-processing our data were:
 
 It was then followed by removal of: (1) Retweets numbers; (2) Tokenizing.
 
-Furthermore, the emojis where given a textual form so that we can get information from that part as well. This is because, in this everchanging world the use of emojis has increases. This converted emojis was considered as text and was used in the count of curses.
+Furthermore, the emojis where given a textual form so that we can get information from that part as well. This is because, in this everchanging world the use of emojis has increases. This converted emojis was considered as text and was used in the count of “curses”.
 
 The step to remove punctuation followed by Tokenizing which is the way toward separating a goliath string into a rundown of words. NLTK \citep{NLTK}, a python library is used for this process. Stopwords, where pull-out, as they do not change any meaning of a sentence hence, can be ignored. Tuples were generated with each word and part of speech. Finally, the counts were extracted from the tweets of both the veterans and the civilians. And was then was compared with each other.
 
@@ -77,8 +79,6 @@ Hence, we compared the count of the “curses” to come up with a result that d
   \item civilian stats: {'retweets': 24102124.0, 'replies': 5919866.0, 'likes': 123551386, 'emojis': 69284, 'urls': 248854, 'mentions': 325691, 'words': 44355619, 'curses': 8983, 'tweets': 600173}
 \end{itemize}
 
-The entire idea for our research was to check the mental condition of veterans or any army person to that of to a normal civilian and therefore draw a sentimental analysis. Our research done on nearly 488 people that include the civilian’s as well as the vets shows that there is definitely effect of wars that can be reflected from the type of words they use while tweeting. One of the analysis shows that the number of CURSES used in by the vets are much more greater that that used by an ordinary civilians. The word count for curse word by vets accounts to be 28,249 which is much greater than that curse world count used by civilians which is at 8,983.
-
 \subsubsection{Sentiment \& Emotion Analysis}
 
 Tweets are filtered and only tweets with texts originate from uses themselve remain, which means the likes and directly retweets are filtered.
@@ -87,7 +87,14 @@ The corpora are then preprocessed to remove elements mentioned in Table.\ref{tab
 
 To notice that, when we remove numbers we try to remain the years (from 1900 to 2100), and we try not to remove punctuations and stopwords because we need to do Part-of-Speech (POS) tagging after tokenizing. Both tokenizing and POS tagging is done by NLTK \citep{NLTK}.
 
-We use lexicons to score the words in our corpora. SentiWordNet is used for sentiment polarity analysis and NRC Word-Emotion Association Lexicon (EmoLex) \citep{Mohammad13} based on the model of Plutchik’s wheel of emotions \citep{plutchik2003emotions} (with additional Positiveness and Negativeness) is for emotion analysis.
+We use lexicons to score the words in our corpora. SentiWordNet is used for sentiment polarity analysis and NRC Word-Emotion Association Lexicon (EmoLex) \citep{Mohammad13} based on the model of Plutchik’s wheel of emotions \citep{plutchik2003emotions} (see Figure.\ref{fig:wheel}, with additional Positiveness and Negativeness) is for emotion analysis.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/wheel-of-emotions.jpg}
+  \caption{Plutchik’s wheel of emotions}
+  \label{fig:wheel}
+\end{figure}
 
 Once the POS tags of words are generated. We search the synonyms of words in SentiWordNet to determine the scoring for positiveness, negativeness and objectiveness by caculating means among synonyms. Meanwhile EmoLex is used to perform emotion analysis on 10 emotions. Scores of one tweet are generated caculating the means of the scores of all the words after preprocessing.
 
