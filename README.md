@@ -11,6 +11,8 @@ Contribution Table: https://docs.google.com/document/d/1p5oBujDSnjKxoWRFll8wwKt7
 
 ## Data Collection
 
+Use `twint`: https://github.com/twintproject/twint
+
 ## Preprocessing
 
 **NEED TO INSTALL BY FOLLWING THE README IN THEIR REPO**
@@ -40,7 +42,8 @@ Preprocessing using tool: https://github.com/vasisouv/tweets-preprocessor
 - length of tweets/retweets
   - it's like other non-linguistic features
 
-### Comparing Non-Linguistic Features
+### Comparing Non-Linguistic F
+eatures
 
 - the amount of tweets & retweets & replies
 - the frecency of tweets/retweets
